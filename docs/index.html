@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Apple 価格ウォッチ</title>
+<meta name="description" content="Apple Store（日本）の全モデルの価格を定期的に記録し、値上げ・値下げ・新登場を自動で見つけます。">
+<meta name="theme-color" content="#f5f5f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="価格ウォッチ">
+<meta property="og:title" content="Apple 価格ウォッチ">
+<meta property="og:description" content="Apple Store（日本）の価格改定と新製品を自動で検知しています。">
+<meta property="og:type" content="website">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<style>
+  :root {
+    --bg: #f5f5f7;
+    --card: #ffffff;
+    --text: #1d1d1f;
+    --muted: #6e6e73;
+    --line: rgba(0,0,0,.08);
+    --accent: #0071e3;
+    --chip: rgba(0,0,0,.05);
+    --chip-on: #1d1d1f;
+    --chip-on-text: #ffffff;
+    --up: #d70015;
+    --up-bg: rgba(215,0,21,.1);
+    --down: #007a3d;
+    --down-bg: rgba(0,122,61,.1);
+    --new: #0071e3;
+    --new-bg: rgba(0,113,227,.1);
+    --gone: #6e6e73;
+    --gone-bg: rgba(110,110,115,.12);
+    --header: rgba(245,245,247,.82);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #000000;
+      --card: #1c1c1e;
+      --text: #f5f5f7;
+      --muted: #98989d;
+      --line: rgba(255,255,255,.1);
+      --accent: #2997ff;
+      --chip: rgba(255,255,255,.1);
+      --chip-on: #f5f5f7;
+      --chip-on-text: #000000;
+      --up: #ff453a;
+      --up-bg: rgba(255,69,58,.15);
+      --down: #30d158;
+      --down-bg: rgba(48,209,88,.15);
+      --new: #2997ff;
+      --new-bg: rgba(41,151,255,.15);
+      --gone: #98989d;
+      --gone-bg: rgba(152,152,157,.15);
+      --header: rgba(0,0,0,.75);
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: calc(24px + env(safe-area-inset-bottom));
+  }
+  a { color: inherit; text-decoration: none; }
+
+  header {
+    position: sticky; top: 0; z-index: 10;
+    background: var(--header);
+    backdrop-filter: saturate(180%) blur(20px);
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    border-bottom: 1px solid var(--line);
+    padding: 14px 16px 0;
+    padding-top: calc(14px + env(safe-area-inset-top));
+  }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 19px; margin: 0; letter-spacing: .01em; }
+  .updated { font-size: 12px; color: var(--muted); margin-top: 2px; }
+
+  .tabs { display: flex; gap: 4px; margin-top: 12px; }
+  .tab {
+    appearance: none; border: 0; background: none; cursor: pointer;
+    font: inherit; font-size: 14px; color: var(--muted);
+    padding: 8px 4px 10px; margin-right: 14px;
+    border-bottom: 2px solid transparent;
+  }
+  .tab[aria-selected="true"] { color: var(--text); font-weight: 600; border-bottom-color: var(--text); }
+
+  main { max-width: 860px; margin: 0 auto; padding: 16px; }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; }
+  .chip {
+    appearance: none; border: 0; cursor: pointer; font: inherit;
+    font-size: 13px; padding: 5px 12px; border-radius: 999px;
+    background: var(--chip); color: var(--text);
+  }
+  .chip[aria-pressed="true"] { background: var(--chip-on); color: var(--chip-on-text); }
+
+  .daygroup { margin-bottom: 26px; }
+  .daygroup > h2 {
+    font-size: 13px; color: var(--muted); font-weight: 600;
+    margin: 0 0 8px 2px; letter-spacing: .02em;
+  }
+  .event {
+    display: flex; gap: 12px; align-items: flex-start;
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; padding: 12px 14px; margin-bottom: 8px;
+  }
+  .badge {
+    flex: none; font-size: 11px; font-weight: 700; border-radius: 6px;
+    padding: 3px 7px; margin-top: 2px; white-space: nowrap;
+  }
+  .badge.price_up { color: var(--up); background: var(--up-bg); }
+  .badge.price_down { color: var(--down); background: var(--down-bg); }
+  .badge.new { color: var(--new); background: var(--new-bg); }
+  .badge.gone { color: var(--gone); background: var(--gone-bg); }
+  .event .body { min-width: 0; flex: 1; }
+  .event .fam { font-weight: 600; font-size: 15px; }
+  .event .name { font-size: 13px; color: var(--muted); }
+  .event .money { font-size: 14px; margin-top: 3px; font-variant-numeric: tabular-nums; }
+  .strike { text-decoration: line-through; color: var(--muted); }
+  .gap.up { color: var(--up); font-weight: 600; }
+  .gap.down { color: var(--down); font-weight: 600; }
+
+  details.family {
+    background: var(--card); border: 1px solid var(--line);
+    border-radius: 12px; margin-bottom: 8px; overflow: hidden;
+  }
+  details.family > summary {
+    cursor: pointer; list-style: none; padding: 12px 14px;
+    display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
+  }
+  details.family > summary::-webkit-details-marker { display: none; }
+  .famname { font-weight: 600; font-size: 15px; }
+  .famrange { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
+  .skus { border-top: 1px solid var(--line); }
+  .sku {
+    display: flex; justify-content: space-between; gap: 12px;
+    padding: 9px 14px; font-size: 13px; border-bottom: 1px solid var(--line);
+  }
+  .sku:last-child { border-bottom: 0; }
+  .sku .n { color: var(--muted); min-width: 0; }
+  .sku .p { flex: none; font-variant-numeric: tabular-nums; }
+  .sku .part { font-size: 11px; color: var(--muted); }
+  .recent { color: var(--accent); font-size: 11px; margin-left: 6px; }
+
+  .empty { color: var(--muted); font-size: 14px; text-align: center; padding: 48px 16px; }
+  footer { max-width: 860px; margin: 0 auto; padding: 8px 16px 32px; font-size: 12px; color: var(--muted); }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <h1>Apple 価格ウォッチ</h1>
+    <div class="updated" id="updated"></div>
+    <div class="tabs" role="tablist">
+      <button class="tab" role="tab" id="tab-events" aria-selected="true">変動</button>
+      <button class="tab" role="tab" id="tab-prices" aria-selected="false">価格一覧</button>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="filters" id="filters"></div>
+  <div id="panel"></div>
+</main>
+
+<footer>
+  価格は Apple Store（日本）の購入ページに掲載されている標準構成のもので、税込です。
+  iPhone はキャリア版を除いた SIM フリー版だけを見ています。実際の価格は必ず公式サイトでご確認ください。
+</footer>
+
+<script>
+const yen = n => n == null ? "—" : n.toLocaleString("ja-JP") + "円";
+const BADGE = { price_up: "値上げ", price_down: "値下げ", new: "新登場", gone: "終了" };
+
+let data = null;
+let view = "events";
+let category = "すべて";
+
+function el(tag, cls, text) {
+  const e = document.createElement(tag);
+  if (cls) e.className = cls;
+  if (text != null) e.textContent = text;
+  return e;
+}
+
+function dayLabel(iso) {
+  const d = new Date(iso + "T00:00:00+09:00");
+  const w = "日月火水木金土"[d.getDay()];
+  return `${d.getMonth() + 1}月${d.getDate()}日（${w}）`;
+}
+
+function daysAgo(iso) {
+  const then = new Date(iso + "T00:00:00+09:00");
+  return Math.floor((Date.now() - then.getTime()) / 86400000);
+}
+
+function categories() {
+  const seen = [];
+  for (const f of data.families) if (!seen.includes(f.category)) seen.push(f.category);
+  return ["すべて", ...seen];
+}
+
+function renderFilters() {
+  const box = document.getElementById("filters");
+  box.innerHTML = "";
+  for (const c of categories()) {
+    const b = el("button", "chip", c);
+    b.setAttribute("aria-pressed", String(c === category));
+    b.onclick = () => { category = c; render(); };
+    box.appendChild(b);
+  }
+}
+
+function renderEvents(panel) {
+  const events = data.events.filter(e => category === "すべて" || e.category === category);
+  if (!events.length) {
+    panel.appendChild(el("div", "empty",
+      "まだ変動はありません。次に価格が動いたときにここへ出ます。"));
+    return;
+  }
+  let currentDay = null, group = null;
+  for (const e of events) {
+    if (e.date !== currentDay) {
+      currentDay = e.date;
+      group = el("section", "daygroup");
+      group.appendChild(el("h2", null, dayLabel(e.date)));
+      panel.appendChild(group);
+    }
+    const row = el("a", "event");
+    row.href = e.url;
+    row.target = "_blank";
+    row.rel = "noopener";
+    row.appendChild(el("span", "badge " + e.type, BADGE[e.type] || e.type));
+
+    const body = el("div", "body");
+    body.appendChild(el("div", "fam", e.family_label));
+    if (e.name) body.appendChild(el("div", "name", e.name));
+
+    const money = el("div", "money");
+    if (e.type === "price_up" || e.type === "price_down") {
+      money.appendChild(el("span", "strike", yen(e.old_price)));
+      money.appendChild(document.createTextNode(" → " + yen(e.new_price) + " "));
+      const sign = e.diff > 0 ? "+" : "−";
+      money.appendChild(el("span", "gap " + (e.diff > 0 ? "up" : "down"),
+        `${sign}${Math.abs(e.diff).toLocaleString("ja-JP")}円`));
+    } else if (e.type === "new") {
+      money.textContent = yen(e.new_price);
+    } else {
+      money.appendChild(el("span", "strike", yen(e.old_price)));
+    }
+    body.appendChild(money);
+    row.appendChild(body);
+    group.appendChild(row);
+  }
+}
+
+function renderPrices(panel) {
+  const fams = data.families.filter(f => category === "すべて" || f.category === category);
+  if (!fams.length) {
+    panel.appendChild(el("div", "empty", "この分類の製品はまだ記録がありません。"));
+    return;
+  }
+  for (const f of fams) {
+    const skus = data.skus.filter(s => s.family === f.id);
+    if (!skus.length) continue;
+    const prices = skus.map(s => s.price);
+    const lo = Math.min(...prices), hi = Math.max(...prices);
+
+    const d = el("details", "family");
+    const sum = el("summary");
+    sum.appendChild(el("span", "famname", f.label));
+    sum.appendChild(el("span", "famrange",
+      lo === hi ? yen(lo) : `${yen(lo)} 〜 ${yen(hi)}`));
+    d.appendChild(sum);
+
+    const list = el("div", "skus");
+    for (const s of skus) {
+      const row = el("div", "sku");
+      const n = el("div", "n");
+      n.appendChild(el("div", null, s.name));
+      if (s.part) n.appendChild(el("div", "part", s.part));
+      row.appendChild(n);
+      const p = el("div", "p");
+      p.appendChild(document.createTextNode(yen(s.price)));
+      const ago = daysAgo(s.price_since);
+      if (ago <= 30 && s.price_since !== s.first_seen) {
+        p.appendChild(el("span", "recent", ago === 0 ? "本日改定" : `${ago}日前に改定`));
+      }
+      row.appendChild(p);
+      list.appendChild(row);
+    }
+    d.appendChild(list);
+    panel.appendChild(d);
+  }
+}
+
+function render() {
+  document.getElementById("tab-events").setAttribute("aria-selected", String(view === "events"));
+  document.getElementById("tab-prices").setAttribute("aria-selected", String(view === "prices"));
+  renderFilters();
+  const panel = document.getElementById("panel");
+  panel.innerHTML = "";
+  if (view === "events") renderEvents(panel); else renderPrices(panel);
+}
+
+document.getElementById("tab-events").onclick = () => { view = "events"; render(); };
+document.getElementById("tab-prices").onclick = () => { view = "prices"; render(); };
+
+fetch("prices.json?" + Date.now())
+  .then(r => r.json())
+  .then(json => {
+    data = json;
+    const t = new Date(json.updated);
+    document.getElementById("updated").textContent =
+      `${data.skus.length}モデルを記録中 ・ 最終更新 ${t.getFullYear()}年${t.getMonth() + 1}月${t.getDate()}日 ${String(t.getHours()).padStart(2, "0")}:${String(t.getMinutes()).padStart(2, "0")}`;
+    render();
+  })
+  .catch(() => {
+    document.getElementById("panel").appendChild(
+      el("div", "empty", "価格データを読み込めませんでした。"));
+  });
+</script>
+</body>
+</html>

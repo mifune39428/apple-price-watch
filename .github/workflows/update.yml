@@ -1,0 +1,42 @@
+name: 価格の自動チェック
+
+on:
+  schedule:
+    # 3時間ごと。新製品が出るのは日本時間の深夜（Appleのイベント直後）なので、
+    # 1日1回より細かく見ておく。LLMを使わないので実行は数十秒で終わる。
+    - cron: "0 */3 * * *"
+  workflow_dispatch: {}
+
+# 前の実行が終わる前に次が始まると push が衝突するので、直列にする。
+concurrency:
+  group: price-update
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: 価格を取得して差分を記録
+        run: python3 collect.py
+
+      - name: 差分があればコミット
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/prices.json
+          if git diff --staged --quiet; then
+            echo "価格に動きはありませんでした。コミットしません。"
+          else
+            git commit -m "価格の自動更新 $(TZ=Asia/Tokyo date '+%Y-%m-%d %H:%M')"
+            git push
+          fi
