@@ -3,7 +3,7 @@
 Apple Store（日本）に並んでいる全モデルの価格を定期的に取り直し、
 **値上げ・値下げ・新登場・取り扱い終了**を自動で見つけて記録する。
 
-公開サイト: （GitHub Pages の URL）
+公開サイト: https://mifune39428.github.io/apple-price-watch/
 
 ## 何を見ているか
 
