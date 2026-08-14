@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14T20:56:26+09:00",
+ "updated": "2026-08-14T20:59:02+09:00",
  "source": "Apple Store（日本）",
  "families": [
   {
@@ -2735,18 +2735,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDHE4J/A",
-   "part": "MDHE4J/A",
-   "family": "macbook-air",
-   "family_label": "MacBook Air",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
-   "name": "ミッドナイト / 10コアCPU、8コアGPU、16コアNeural Engine / 13インチ",
-   "price": 224800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MDHH4J/A",
    "part": "MDHH4J/A",
    "family": "macbook-air",
@@ -2771,6 +2759,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MDHE4J/A",
+   "part": "MDHE4J/A",
+   "family": "macbook-air",
+   "family_label": "MacBook Air",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
+   "name": "ミッドナイト / 10コアCPU、8コアGPU、16コアNeural Engine / 13インチ",
+   "price": 224800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MDH74J/A",
    "part": "MDH74J/A",
    "family": "macbook-air",
@@ -2783,6 +2783,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "buy-mac/macbook-air#13inch-silver-10-10",
+   "part": null,
+   "family": "macbook-air",
+   "family_label": "MacBook Air",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
+   "name": "シルバー / 10コアCPU、10コアGPU、16コアNeural Engine / 13インチ",
+   "price": 242800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "buy-mac/macbook-air#13inch-skyblue-10-10",
    "part": null,
    "family": "macbook-air",
@@ -2790,18 +2802,6 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
    "name": "スカイブルー / 10コアCPU、10コアGPU、16コアNeural Engine / 13インチ",
-   "price": 242800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "buy-mac/macbook-air#13inch-starlight-10-10",
-   "part": null,
-   "family": "macbook-air",
-   "family_label": "MacBook Air",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
-   "name": "スターライト / 10コアCPU、10コアGPU、16コアNeural Engine / 13インチ",
    "price": 242800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2819,26 +2819,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "buy-mac/macbook-air#13inch-silver-10-10",
+   "id": "buy-mac/macbook-air#13inch-starlight-10-10",
    "part": null,
    "family": "macbook-air",
    "family_label": "MacBook Air",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
-   "name": "シルバー / 10コアCPU、10コアGPU、16コアNeural Engine / 13インチ",
+   "name": "スターライト / 10コアCPU、10コアGPU、16コアNeural Engine / 13インチ",
    "price": 242800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MDVH4J/A",
-   "part": "MDVH4J/A",
-   "family": "macbook-air",
-   "family_label": "MacBook Air",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
-   "name": "ミッドナイト / 10コアCPU、10コアGPU、16コアNeural Engine / 15インチ",
-   "price": 264800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2874,6 +2862,18 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
    "name": "スターライト / 10コアCPU、10コアGPU、16コアNeural Engine / 15インチ",
+   "price": 264800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDVH4J/A",
+   "part": "MDVH4J/A",
+   "family": "macbook-air",
+   "family_label": "MacBook Air",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
+   "name": "ミッドナイト / 10コアCPU、10コアGPU、16コアNeural Engine / 15インチ",
    "price": 264800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3479,54 +3479,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MWUG3J/A",
-   "part": "MWUG3J/A",
-   "family": "imac",
-   "family_label": "iMac",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "ピンク / M4チップ、 Thunderboltポート x 2",
-   "price": 249800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MWUE3J/A",
-   "part": "MWUE3J/A",
-   "family": "imac",
-   "family_label": "iMac",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "グリーン / M4チップ、 Thunderboltポート x 2",
-   "price": 249800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MWUC3J/A",
-   "part": "MWUC3J/A",
-   "family": "imac",
-   "family_label": "iMac",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "シルバー / M4チップ、 Thunderboltポート x 2",
-   "price": 249800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "buy-mac/imac#orange-8-8",
-   "part": null,
-   "family": "imac",
-   "family_label": "iMac",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "オレンジ / M4チップ、 Thunderboltポート x 2",
-   "price": 249800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "buy-mac/imac#yellow-8-8",
    "part": null,
    "family": "imac",
@@ -3534,18 +3486,6 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
    "name": "イエロー / M4チップ、 Thunderboltポート x 2",
-   "price": 249800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "buy-mac/imac#purple-8-8",
-   "part": null,
-   "family": "imac",
-   "family_label": "iMac",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "パープル / M4チップ、 Thunderboltポート x 2",
    "price": 249800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3563,38 +3503,62 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "buy-mac/imac#purple-10-10",
+   "id": "buy-mac/imac#purple-8-8",
    "part": null,
    "family": "imac",
    "family_label": "iMac",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "パープル / M4チップ、 Thunderboltポート x 4",
-   "price": 289800,
+   "name": "パープル / M4チップ、 Thunderboltポート x 2",
+   "price": 249800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
   {
-   "id": "MWV13J/A",
-   "part": "MWV13J/A",
+   "id": "MWUE3J/A",
+   "part": "MWUE3J/A",
    "family": "imac",
    "family_label": "iMac",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "ブルー / M4チップ、 Thunderboltポート x 4",
-   "price": 289800,
+   "name": "グリーン / M4チップ、 Thunderboltポート x 2",
+   "price": 249800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
   {
-   "id": "MWUY3J/A",
-   "part": "MWUY3J/A",
+   "id": "MWUG3J/A",
+   "part": "MWUG3J/A",
    "family": "imac",
    "family_label": "iMac",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "グリーン / M4チップ、 Thunderboltポート x 4",
-   "price": 289800,
+   "name": "ピンク / M4チップ、 Thunderboltポート x 2",
+   "price": 249800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "buy-mac/imac#orange-8-8",
+   "part": null,
+   "family": "imac",
+   "family_label": "iMac",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+   "name": "オレンジ / M4チップ、 Thunderboltポート x 2",
+   "price": 249800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MWUC3J/A",
+   "part": "MWUC3J/A",
+   "family": "imac",
+   "family_label": "iMac",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+   "name": "シルバー / M4チップ、 Thunderboltポート x 2",
+   "price": 249800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -3623,6 +3587,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MWUY3J/A",
+   "part": "MWUY3J/A",
+   "family": "imac",
+   "family_label": "iMac",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+   "name": "グリーン / M4チップ、 Thunderboltポート x 4",
+   "price": 289800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "buy-mac/imac#yellow-10-10",
    "part": null,
    "family": "imac",
@@ -3642,6 +3618,30 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
    "name": "オレンジ / M4チップ、 Thunderboltポート x 4",
+   "price": 289800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "buy-mac/imac#purple-10-10",
+   "part": null,
+   "family": "imac",
+   "family_label": "iMac",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+   "name": "パープル / M4チップ、 Thunderboltポート x 4",
+   "price": 289800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MWV13J/A",
+   "part": "MWV13J/A",
+   "family": "imac",
+   "family_label": "iMac",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+   "name": "ブルー / M4チップ、 Thunderboltポート x 4",
    "price": 289800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
