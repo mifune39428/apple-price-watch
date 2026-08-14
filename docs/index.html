@@ -320,7 +320,7 @@ fetch("prices.json?" + Date.now())
     data = json;
     const t = new Date(json.updated);
     document.getElementById("updated").textContent =
-      `${data.skus.length}モデルを記録中 ・ 最終更新 ${t.getFullYear()}年${t.getMonth() + 1}月${t.getDate()}日 ${String(t.getHours()).padStart(2, "0")}:${String(t.getMinutes()).padStart(2, "0")}`;
+      `${data.skus.length}モデルを3時間ごとに確認中 ・ 最後に動きがあったのは ${t.getMonth() + 1}月${t.getDate()}日 ${String(t.getHours()).padStart(2, "0")}:${String(t.getMinutes()).padStart(2, "0")}`;
     render();
   })
   .catch(() => {

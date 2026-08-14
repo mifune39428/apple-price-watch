@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14T20:59:02+09:00",
+ "updated": "2026-08-14T21:01:04+09:00",
  "source": "Apple Store（日本）",
  "families": [
   {
@@ -143,25 +143,13 @@
  ],
  "skus": [
   {
-   "id": "MG6A4J/A",
-   "part": "MG6A4J/A",
+   "id": "MG674J/A",
+   "part": "MG674J/A",
    "family": "iphone-17",
    "family_label": "iPhone 17",
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
-   "name": "ラベンダー / 256GB",
-   "price": 142800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MG6C4J/A",
-   "part": "MG6C4J/A",
-   "family": "iphone-17",
-   "family_label": "iPhone 17",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
-   "name": "セージ / 256GB",
+   "name": "ブラック / 256GB",
    "price": 142800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -191,13 +179,25 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MG674J/A",
-   "part": "MG674J/A",
+   "id": "MG6A4J/A",
+   "part": "MG6A4J/A",
    "family": "iphone-17",
    "family_label": "iPhone 17",
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
-   "name": "ブラック / 256GB",
+   "name": "ラベンダー / 256GB",
+   "price": 142800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MG6C4J/A",
+   "part": "MG6C4J/A",
+   "family": "iphone-17",
+   "family_label": "iPhone 17",
+   "category": "iPhone",
+   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
+   "name": "セージ / 256GB",
    "price": 142800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -227,18 +227,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MG6H4J/A",
-   "part": "MG6H4J/A",
-   "family": "iphone-17",
-   "family_label": "iPhone 17",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
-   "name": "セージ / 512GB",
-   "price": 177800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MG6F4J/A",
    "part": "MG6F4J/A",
    "family": "iphone-17",
@@ -258,6 +246,18 @@
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
    "name": "ラベンダー / 512GB",
+   "price": 177800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MG6H4J/A",
+   "part": "MG6H4J/A",
+   "family": "iphone-17",
+   "family_label": "iPhone 17",
+   "category": "iPhone",
+   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17",
+   "name": "セージ / 512GB",
    "price": 177800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -371,6 +371,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MFYC4J/A",
+   "part": "MFYC4J/A",
+   "family": "iphone-17-pro",
+   "family_label": "iPhone 17 Pro",
+   "category": "iPhone",
+   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+   "name": "iPhone 17 Pro Max / シルバー / 512GB",
+   "price": 249800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MFYD4J/A",
    "part": "MFYD4J/A",
    "family": "iphone-17-pro",
@@ -390,18 +402,6 @@
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
    "name": "iPhone 17 Pro Max / ディープブルー / 512GB",
-   "price": 249800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MFYC4J/A",
-   "part": "MFYC4J/A",
-   "family": "iphone-17-pro",
-   "family_label": "iPhone 17 Pro",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
-   "name": "iPhone 17 Pro Max / シルバー / 512GB",
    "price": 249800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -443,18 +443,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MFYH4J/A",
-   "part": "MFYH4J/A",
-   "family": "iphone-17-pro",
-   "family_label": "iPhone 17 Pro",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
-   "name": "iPhone 17 Pro Max / ディープブルー / 1TB",
-   "price": 284800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MFYF4J/A",
    "part": "MFYF4J/A",
    "family": "iphone-17-pro",
@@ -479,14 +467,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MFYL4J/A",
-   "part": "MFYL4J/A",
+   "id": "MFYH4J/A",
+   "part": "MFYH4J/A",
    "family": "iphone-17-pro",
    "family_label": "iPhone 17 Pro",
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
-   "name": "iPhone 17 Pro Max / ディープブルー / 2TB",
-   "price": 354800,
+   "name": "iPhone 17 Pro Max / ディープブルー / 1TB",
+   "price": 284800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -515,13 +503,25 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MHRQ4J/A",
-   "part": "MHRQ4J/A",
+   "id": "MFYL4J/A",
+   "part": "MFYL4J/A",
+   "family": "iphone-17-pro",
+   "family_label": "iPhone 17 Pro",
+   "category": "iPhone",
+   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
+   "name": "iPhone 17 Pro Max / ディープブルー / 2TB",
+   "price": 354800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHRN4J/A",
+   "part": "MHRN4J/A",
    "family": "iphone-17e",
    "family_label": "iPhone 17e",
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ソフトピンク / 256GB",
+   "name": "ブラック / 256GB",
    "price": 107800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -539,13 +539,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MHRN4J/A",
-   "part": "MHRN4J/A",
+   "id": "MHRQ4J/A",
+   "part": "MHRQ4J/A",
    "family": "iphone-17e",
    "family_label": "iPhone 17e",
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ブラック / 256GB",
+   "name": "ソフトピンク / 256GB",
    "price": 107800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -563,6 +563,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MHRT4J/A",
+   "part": "MHRT4J/A",
+   "family": "iphone-17e",
+   "family_label": "iPhone 17e",
+   "category": "iPhone",
+   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
+   "name": "ホワイト / 512GB",
+   "price": 142800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MHRU4J/A",
    "part": "MHRU4J/A",
    "family": "iphone-17e",
@@ -575,14 +587,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MHRT4J/A",
-   "part": "MHRT4J/A",
-   "family": "iphone-17e",
-   "family_label": "iPhone 17e",
+   "id": "MG274J/A",
+   "part": "MG274J/A",
+   "family": "iphone-air",
+   "family_label": "iPhone Air",
    "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ホワイト / 512GB",
-   "price": 142800,
+   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
+   "name": "スペースブラック / 256GB",
+   "price": 177800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -611,18 +623,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MG274J/A",
-   "part": "MG274J/A",
-   "family": "iphone-air",
-   "family_label": "iPhone Air",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
-   "name": "スペースブラック / 256GB",
-   "price": 177800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MG2A4J/A",
    "part": "MG2A4J/A",
    "family": "iphone-air",
@@ -631,6 +631,18 @@
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
    "name": "スカイブルー / 256GB",
    "price": 177800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MG2C4J/A",
+   "part": "MG2C4J/A",
+   "family": "iphone-air",
+   "family_label": "iPhone Air",
+   "category": "iPhone",
+   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
+   "name": "スペースブラック / 512GB",
+   "price": 212800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -659,18 +671,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MG2C4J/A",
-   "part": "MG2C4J/A",
-   "family": "iphone-air",
-   "family_label": "iPhone Air",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
-   "name": "スペースブラック / 512GB",
-   "price": 212800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MG2F4J/A",
    "part": "MG2F4J/A",
    "family": "iphone-air",
@@ -683,18 +683,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MG2H4J/A",
-   "part": "MG2H4J/A",
-   "family": "iphone-air",
-   "family_label": "iPhone Air",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
-   "name": "クラウドホワイト / 1TB",
-   "price": 247800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MG2G4J/A",
    "part": "MG2G4J/A",
    "family": "iphone-air",
@@ -702,6 +690,18 @@
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
    "name": "スペースブラック / 1TB",
+   "price": 247800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MG2H4J/A",
+   "part": "MG2H4J/A",
+   "family": "iphone-air",
+   "family_label": "iPhone Air",
+   "category": "iPhone",
+   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air",
+   "name": "クラウドホワイト / 1TB",
    "price": 247800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -731,18 +731,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD4A4J/A",
-   "part": "MD4A4J/A",
-   "family": "ipad",
-   "family_label": "iPad",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "ブルー / 128GB / Wi-Fi",
-   "price": 74800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MD3Y4J/A",
    "part": "MD3Y4J/A",
    "family": "ipad",
@@ -755,13 +743,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD4E4J/A",
-   "part": "MD4E4J/A",
+   "id": "MD4A4J/A",
+   "part": "MD4A4J/A",
    "family": "ipad",
    "family_label": "iPad",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "ピンク / 128GB / Wi-Fi",
+   "name": "ブルー / 128GB / Wi-Fi",
    "price": 74800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -779,14 +767,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD4H4J/A",
-   "part": "MD4H4J/A",
+   "id": "MD4E4J/A",
+   "part": "MD4E4J/A",
    "family": "ipad",
    "family_label": "iPad",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "ブルー / 256GB / Wi-Fi",
-   "price": 91800,
+   "name": "ピンク / 128GB / Wi-Fi",
+   "price": 74800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -803,13 +791,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD4P4J/A",
-   "part": "MD4P4J/A",
+   "id": "MD4H4J/A",
+   "part": "MD4H4J/A",
    "family": "ipad",
    "family_label": "iPad",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "ピンク / 256GB / Wi-Fi",
+   "name": "ブルー / 256GB / Wi-Fi",
    "price": 91800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -827,13 +815,25 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD7H4J/A",
-   "part": "MD7H4J/A",
+   "id": "MD4P4J/A",
+   "part": "MD4P4J/A",
    "family": "ipad",
    "family_label": "iPad",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "イエロー / 128GB / Wi-Fi + Cellular",
+   "name": "ピンク / 256GB / Wi-Fi",
+   "price": 91800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MD7F4J/A",
+   "part": "MD7F4J/A",
+   "family": "ipad",
+   "family_label": "iPad",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
+   "name": "シルバー / 128GB / Wi-Fi + Cellular",
    "price": 99800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -851,6 +851,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MD7H4J/A",
+   "part": "MD7H4J/A",
+   "family": "ipad",
+   "family_label": "iPad",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
+   "name": "イエロー / 128GB / Wi-Fi + Cellular",
+   "price": 99800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MD7J4J/A",
    "part": "MD7J4J/A",
    "family": "ipad",
@@ -863,25 +875,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD7F4J/A",
-   "part": "MD7F4J/A",
+   "id": "MD7K4J/A",
+   "part": "MD7K4J/A",
    "family": "ipad",
    "family_label": "iPad",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "シルバー / 128GB / Wi-Fi + Cellular",
-   "price": 99800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MD7M4J/A",
-   "part": "MD7M4J/A",
-   "family": "ipad",
-   "family_label": "iPad",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "イエロー / 256GB / Wi-Fi + Cellular",
+   "name": "シルバー / 256GB / Wi-Fi + Cellular",
    "price": 116800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -899,6 +899,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MD7M4J/A",
+   "part": "MD7M4J/A",
+   "family": "ipad",
+   "family_label": "iPad",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
+   "name": "イエロー / 256GB / Wi-Fi + Cellular",
+   "price": 116800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MD7N4J/A",
    "part": "MD7N4J/A",
    "family": "ipad",
@@ -907,30 +919,6 @@
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
    "name": "ピンク / 256GB / Wi-Fi + Cellular",
    "price": 116800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MD7K4J/A",
-   "part": "MD7K4J/A",
-   "family": "ipad",
-   "family_label": "iPad",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "シルバー / 256GB / Wi-Fi + Cellular",
-   "price": 116800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MD4Y4J/A",
-   "part": "MD4Y4J/A",
-   "family": "ipad",
-   "family_label": "iPad",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "ブルー / 512GB / Wi-Fi",
-   "price": 126800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -947,13 +935,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD5C4J/A",
-   "part": "MD5C4J/A",
+   "id": "MD4Y4J/A",
+   "part": "MD4Y4J/A",
    "family": "ipad",
    "family_label": "iPad",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "ピンク / 512GB / Wi-Fi",
+   "name": "ブルー / 512GB / Wi-Fi",
    "price": 126800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -971,13 +959,25 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD7R4J/A",
-   "part": "MD7R4J/A",
+   "id": "MD5C4J/A",
+   "part": "MD5C4J/A",
    "family": "ipad",
    "family_label": "iPad",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "イエロー / 512GB / Wi-Fi + Cellular",
+   "name": "ピンク / 512GB / Wi-Fi",
+   "price": 126800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MD7P4J/A",
+   "part": "MD7P4J/A",
+   "family": "ipad",
+   "family_label": "iPad",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
+   "name": "シルバー / 512GB / Wi-Fi + Cellular",
    "price": 151800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -995,6 +995,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MD7R4J/A",
+   "part": "MD7R4J/A",
+   "family": "ipad",
+   "family_label": "iPad",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
+   "name": "イエロー / 512GB / Wi-Fi + Cellular",
+   "price": 151800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MD7T4J/A",
    "part": "MD7T4J/A",
    "family": "ipad",
@@ -1007,18 +1019,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MD7P4J/A",
-   "part": "MD7P4J/A",
-   "family": "ipad",
-   "family_label": "iPad",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad",
-   "name": "シルバー / 512GB / Wi-Fi + Cellular",
-   "price": 151800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MH304J/A",
    "part": "MH304J/A",
    "family": "ipad-air",
@@ -1026,6 +1026,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "11インチモデル / スペースグレイ / 128GB / Wi-Fi",
+   "price": 129800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH314J/A",
+   "part": "MH314J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "11インチモデル / ブルー / 128GB / Wi-Fi",
    "price": 129800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1055,18 +1067,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH314J/A",
-   "part": "MH314J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "11インチモデル / ブルー / 128GB / Wi-Fi",
-   "price": 129800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MH354J/A",
    "part": "MH354J/A",
    "family": "ipad-air",
@@ -1074,6 +1074,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "11インチモデル / スペースグレイ / 256GB / Wi-Fi",
+   "price": 146800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH364J/A",
+   "part": "MH364J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "11インチモデル / ブルー / 256GB / Wi-Fi",
    "price": 146800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1103,14 +1115,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH364J/A",
-   "part": "MH364J/A",
+   "id": "MH784J/A",
+   "part": "MH784J/A",
    "family": "ipad-air",
    "family_label": "iPad Air",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "11インチモデル / ブルー / 256GB / Wi-Fi",
-   "price": 146800,
+   "name": "11インチモデル / スペースグレイ / 128GB / Wi-Fi + Cellular",
+   "price": 154800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -1122,18 +1134,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "11インチモデル / ブルー / 128GB / Wi-Fi + Cellular",
-   "price": 154800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH784J/A",
-   "part": "MH784J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "11インチモデル / スペースグレイ / 128GB / Wi-Fi + Cellular",
    "price": 154800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1163,18 +1163,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH5Q4J/A",
-   "part": "MH5Q4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / スターライト / 128GB / Wi-Fi",
-   "price": 169800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MH5N4J/A",
    "part": "MH5N4J/A",
    "family": "ipad-air",
@@ -1182,18 +1170,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "13インチモデル / スペースグレイ / 128GB / Wi-Fi",
-   "price": 169800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH5T4J/A",
-   "part": "MH5T4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / パープル / 128GB / Wi-Fi",
    "price": 169800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1211,14 +1187,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH7E4J/A",
-   "part": "MH7E4J/A",
+   "id": "MH5Q4J/A",
+   "part": "MH5Q4J/A",
    "family": "ipad-air",
    "family_label": "iPad Air",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "11インチモデル / ブルー / 256GB / Wi-Fi + Cellular",
-   "price": 171800,
+   "name": "13インチモデル / スターライト / 128GB / Wi-Fi",
+   "price": 169800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH5T4J/A",
+   "part": "MH5T4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / パープル / 128GB / Wi-Fi",
+   "price": 169800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -1230,6 +1218,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "11インチモデル / スペースグレイ / 256GB / Wi-Fi + Cellular",
+   "price": 171800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH7E4J/A",
+   "part": "MH7E4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "11インチモデル / ブルー / 256GB / Wi-Fi + Cellular",
    "price": 171800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1271,6 +1271,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MH3C4J/A",
+   "part": "MH3C4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "11インチモデル / ブルー / 512GB / Wi-Fi",
+   "price": 181800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MH3D4J/A",
    "part": "MH3D4J/A",
    "family": "ipad-air",
@@ -1295,30 +1307,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH3C4J/A",
-   "part": "MH3C4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "11インチモデル / ブルー / 512GB / Wi-Fi",
-   "price": 181800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH5W4J/A",
-   "part": "MH5W4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / スターライト / 256GB / Wi-Fi",
-   "price": 186800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MH5U4J/A",
    "part": "MH5U4J/A",
    "family": "ipad-air",
@@ -1326,18 +1314,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "13インチモデル / スペースグレイ / 256GB / Wi-Fi",
-   "price": 186800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH5X4J/A",
-   "part": "MH5X4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / パープル / 256GB / Wi-Fi",
    "price": 186800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1355,6 +1331,42 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MH5W4J/A",
+   "part": "MH5W4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / スターライト / 256GB / Wi-Fi",
+   "price": 186800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH5X4J/A",
+   "part": "MH5X4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / パープル / 256GB / Wi-Fi",
+   "price": 186800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH9D4J/A",
+   "part": "MH9D4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / スペースグレイ / 128GB / Wi-Fi + Cellular",
+   "price": 194800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MH9E4J/A",
    "part": "MH9E4J/A",
    "family": "ipad-air",
@@ -1362,18 +1374,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "13インチモデル / ブルー / 128GB / Wi-Fi + Cellular",
-   "price": 194800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH9G4J/A",
-   "part": "MH9G4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / パープル / 128GB / Wi-Fi + Cellular",
    "price": 194800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1391,26 +1391,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH9D4J/A",
-   "part": "MH9D4J/A",
+   "id": "MH9G4J/A",
+   "part": "MH9G4J/A",
    "family": "ipad-air",
    "family_label": "iPad Air",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / スペースグレイ / 128GB / Wi-Fi + Cellular",
+   "name": "13インチモデル / パープル / 128GB / Wi-Fi + Cellular",
    "price": 194800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH7J4J/A",
-   "part": "MH7J4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "11インチモデル / ブルー / 512GB / Wi-Fi + Cellular",
-   "price": 206800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -1422,6 +1410,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "11インチモデル / スペースグレイ / 512GB / Wi-Fi + Cellular",
+   "price": 206800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH7J4J/A",
+   "part": "MH7J4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "11インチモデル / ブルー / 512GB / Wi-Fi + Cellular",
    "price": 206800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1451,6 +1451,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MH9H4J/A",
+   "part": "MH9H4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / スペースグレイ / 256GB / Wi-Fi + Cellular",
+   "price": 211800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MH9J4J/A",
    "part": "MH9J4J/A",
    "family": "ipad-air",
@@ -1458,18 +1470,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "13インチモデル / ブルー / 256GB / Wi-Fi + Cellular",
-   "price": 211800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH9L4J/A",
-   "part": "MH9L4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / パープル / 256GB / Wi-Fi + Cellular",
    "price": 211800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1487,26 +1487,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH9H4J/A",
-   "part": "MH9H4J/A",
+   "id": "MH9L4J/A",
+   "part": "MH9L4J/A",
    "family": "ipad-air",
    "family_label": "iPad Air",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / スペースグレイ / 256GB / Wi-Fi + Cellular",
+   "name": "13インチモデル / パープル / 256GB / Wi-Fi + Cellular",
    "price": 211800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH614J/A",
-   "part": "MH614J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / スターライト / 512GB / Wi-Fi",
-   "price": 221800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -1518,18 +1506,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "13インチモデル / スペースグレイ / 512GB / Wi-Fi",
-   "price": 221800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH624J/A",
-   "part": "MH624J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / パープル / 512GB / Wi-Fi",
    "price": 221800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1547,6 +1523,30 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MH614J/A",
+   "part": "MH614J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / スターライト / 512GB / Wi-Fi",
+   "price": 221800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH624J/A",
+   "part": "MH624J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / パープル / 512GB / Wi-Fi",
+   "price": 221800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MH3G4J/A",
    "part": "MH3G4J/A",
    "family": "ipad-air",
@@ -1554,6 +1554,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "11インチモデル / スペースグレイ / 1TB / Wi-Fi",
+   "price": 231800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH3H4J/A",
+   "part": "MH3H4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "11インチモデル / ブルー / 1TB / Wi-Fi",
    "price": 231800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1583,14 +1595,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH3H4J/A",
-   "part": "MH3H4J/A",
+   "id": "MH9M4J/A",
+   "part": "MH9M4J/A",
    "family": "ipad-air",
    "family_label": "iPad Air",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "11インチモデル / ブルー / 1TB / Wi-Fi",
-   "price": 231800,
+   "name": "13インチモデル / スペースグレイ / 512GB / Wi-Fi + Cellular",
+   "price": 246800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -1602,18 +1614,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "13インチモデル / ブルー / 512GB / Wi-Fi + Cellular",
-   "price": 246800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH9Q4J/A",
-   "part": "MH9Q4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / パープル / 512GB / Wi-Fi + Cellular",
    "price": 246800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1631,26 +1631,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH9M4J/A",
-   "part": "MH9M4J/A",
+   "id": "MH9Q4J/A",
+   "part": "MH9Q4J/A",
    "family": "ipad-air",
    "family_label": "iPad Air",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / スペースグレイ / 512GB / Wi-Fi + Cellular",
+   "name": "13インチモデル / パープル / 512GB / Wi-Fi + Cellular",
    "price": 246800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH7N4J/A",
-   "part": "MH7N4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "11インチモデル / ブルー / 1TB / Wi-Fi + Cellular",
-   "price": 256800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -1662,6 +1650,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "11インチモデル / スペースグレイ / 1TB / Wi-Fi + Cellular",
+   "price": 256800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH7N4J/A",
+   "part": "MH7N4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "11インチモデル / ブルー / 1TB / Wi-Fi + Cellular",
    "price": 256800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1691,18 +1691,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH654J/A",
-   "part": "MH654J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / スターライト / 1TB / Wi-Fi",
-   "price": 271800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MH634J/A",
    "part": "MH634J/A",
    "family": "ipad-air",
@@ -1710,18 +1698,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "13インチモデル / スペースグレイ / 1TB / Wi-Fi",
-   "price": 271800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHDK4J/A",
-   "part": "MHDK4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / パープル / 1TB / Wi-Fi",
    "price": 271800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1739,6 +1715,42 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MH654J/A",
+   "part": "MH654J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / スターライト / 1TB / Wi-Fi",
+   "price": 271800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHDK4J/A",
+   "part": "MHDK4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / パープル / 1TB / Wi-Fi",
+   "price": 271800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MH9R4J/A",
+   "part": "MH9R4J/A",
+   "family": "ipad-air",
+   "family_label": "iPad Air",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
+   "name": "13インチモデル / スペースグレイ / 1TB / Wi-Fi + Cellular",
+   "price": 296800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MH9T4J/A",
    "part": "MH9T4J/A",
    "family": "ipad-air",
@@ -1746,18 +1758,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
    "name": "13インチモデル / ブルー / 1TB / Wi-Fi + Cellular",
-   "price": 296800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MH9V4J/A",
-   "part": "MH9V4J/A",
-   "family": "ipad-air",
-   "family_label": "iPad Air",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / パープル / 1TB / Wi-Fi + Cellular",
    "price": 296800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1775,13 +1775,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MH9R4J/A",
-   "part": "MH9R4J/A",
+   "id": "MH9V4J/A",
+   "part": "MH9V4J/A",
    "family": "ipad-air",
    "family_label": "iPad Air",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-air",
-   "name": "13インチモデル / スペースグレイ / 1TB / Wi-Fi + Cellular",
+   "name": "13インチモデル / パープル / 1TB / Wi-Fi + Cellular",
    "price": 296800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1859,18 +1859,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDYK4J/A",
-   "part": "MDYK4J/A",
-   "family": "ipad-pro",
-   "family_label": "iPad Pro",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "13インチモデル / シルバー / 256GBストレージ 12GBメモリ / 標準ガラス / Wi-Fi",
-   "price": 269800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MDYJ4J/A",
    "part": "MDYJ4J/A",
    "family": "ipad-pro",
@@ -1878,6 +1866,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
    "name": "13インチモデル / スペースブラック / 256GBストレージ 12GBメモリ / 標準ガラス / Wi-Fi",
+   "price": 269800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDYK4J/A",
+   "part": "MDYK4J/A",
+   "family": "ipad-pro",
+   "family_label": "iPad Pro",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
+   "name": "13インチモデル / シルバー / 256GBストレージ 12GBメモリ / 標準ガラス / Wi-Fi",
    "price": 269800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1907,18 +1907,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDYM4J/A",
-   "part": "MDYM4J/A",
-   "family": "ipad-pro",
-   "family_label": "iPad Pro",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "13インチモデル / シルバー / 512GBストレージ 12GBメモリ / 標準ガラス / Wi-Fi",
-   "price": 304800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MDYL4J/A",
    "part": "MDYL4J/A",
    "family": "ipad-pro",
@@ -1926,6 +1914,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
    "name": "13インチモデル / スペースブラック / 512GBストレージ 12GBメモリ / 標準ガラス / Wi-Fi",
+   "price": 304800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDYM4J/A",
+   "part": "MDYM4J/A",
+   "family": "ipad-pro",
+   "family_label": "iPad Pro",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
+   "name": "13インチモデル / シルバー / 512GBストレージ 12GBメモリ / 標準ガラス / Wi-Fi",
    "price": 304800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -1979,18 +1979,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDWT4J/A",
-   "part": "MDWT4J/A",
-   "family": "ipad-pro",
-   "family_label": "iPad Pro",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "11インチモデル / シルバー / 1TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
-   "price": 331800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MDWR4J/A",
    "part": "MDWR4J/A",
    "family": "ipad-pro",
@@ -1998,6 +1986,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
    "name": "11インチモデル / スペースブラック / 1TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
+   "price": 331800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDWT4J/A",
+   "part": "MDWT4J/A",
+   "family": "ipad-pro",
+   "family_label": "iPad Pro",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
+   "name": "11インチモデル / シルバー / 1TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
    "price": 331800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2051,18 +2051,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "ME2X4J/A",
-   "part": "ME2X4J/A",
-   "family": "ipad-pro",
-   "family_label": "iPad Pro",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "11インチモデル / シルバー / 1TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi + Cellular",
-   "price": 366800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "ME2W4J/A",
    "part": "ME2W4J/A",
    "family": "ipad-pro",
@@ -2075,14 +2063,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDYP4J/A",
-   "part": "MDYP4J/A",
+   "id": "ME2X4J/A",
+   "part": "ME2X4J/A",
    "family": "ipad-pro",
    "family_label": "iPad Pro",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "13インチモデル / シルバー / 1TBストレージ 16GBメモリ / 標準ガラス / Wi-Fi",
-   "price": 374800,
+   "name": "11インチモデル / シルバー / 1TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi + Cellular",
+   "price": 366800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2099,14 +2087,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDYR4J/A",
-   "part": "MDYR4J/A",
+   "id": "MDYP4J/A",
+   "part": "MDYP4J/A",
    "family": "ipad-pro",
    "family_label": "iPad Pro",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "13インチモデル / シルバー / 1TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
-   "price": 391800,
+   "name": "13インチモデル / シルバー / 1TBストレージ 16GBメモリ / 標準ガラス / Wi-Fi",
+   "price": 374800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2118,6 +2106,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
    "name": "13インチモデル / スペースブラック / 1TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
+   "price": 391800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDYR4J/A",
+   "part": "MDYR4J/A",
+   "family": "ipad-pro",
+   "family_label": "iPad Pro",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
+   "name": "13インチモデル / シルバー / 1TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
    "price": 391800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2171,18 +2171,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDWX4J/A",
-   "part": "MDWX4J/A",
-   "family": "ipad-pro",
-   "family_label": "iPad Pro",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "11インチモデル / シルバー / 2TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
-   "price": 421800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MDWW4J/A",
    "part": "MDWW4J/A",
    "family": "ipad-pro",
@@ -2190,6 +2178,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
    "name": "11インチモデル / スペースブラック / 2TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
+   "price": 421800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDWX4J/A",
+   "part": "MDWX4J/A",
+   "family": "ipad-pro",
+   "family_label": "iPad Pro",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
+   "name": "11インチモデル / シルバー / 2TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
    "price": 421800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2243,18 +2243,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "ME6D4J/A",
-   "part": "ME6D4J/A",
-   "family": "ipad-pro",
-   "family_label": "iPad Pro",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "11インチモデル / シルバー / 2TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi + Cellular",
-   "price": 456800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "ME6C4J/A",
    "part": "ME6C4J/A",
    "family": "ipad-pro",
@@ -2267,14 +2255,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDYU4J/A",
-   "part": "MDYU4J/A",
+   "id": "ME6D4J/A",
+   "part": "ME6D4J/A",
    "family": "ipad-pro",
    "family_label": "iPad Pro",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "13インチモデル / シルバー / 2TBストレージ 16GBメモリ / 標準ガラス / Wi-Fi",
-   "price": 464800,
+   "name": "11インチモデル / シルバー / 2TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi + Cellular",
+   "price": 456800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2291,14 +2279,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDYW4J/A",
-   "part": "MDYW4J/A",
+   "id": "MDYU4J/A",
+   "part": "MDYU4J/A",
    "family": "ipad-pro",
    "family_label": "iPad Pro",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
-   "name": "13インチモデル / シルバー / 2TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
-   "price": 481800,
+   "name": "13インチモデル / シルバー / 2TBストレージ 16GBメモリ / 標準ガラス / Wi-Fi",
+   "price": 464800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2310,6 +2298,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
    "name": "13インチモデル / スペースブラック / 2TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
+   "price": 481800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDYW4J/A",
+   "part": "MDYW4J/A",
+   "family": "ipad-pro",
+   "family_label": "iPad Pro",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-pro",
+   "name": "13インチモデル / シルバー / 2TBストレージ 16GBメモリ / Nano-textureガラス / Wi-Fi",
    "price": 481800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2363,30 +2363,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MXN93J/A",
-   "part": "MXN93J/A",
-   "family": "ipad-mini",
-   "family_label": "iPad mini",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "パープル / 128GB / Wi-Fi",
-   "price": 99800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MXN83J/A",
-   "part": "MXN83J/A",
-   "family": "ipad-mini",
-   "family_label": "iPad mini",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "スターライト / 128GB / Wi-Fi",
-   "price": 99800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MXN63J/A",
    "part": "MXN63J/A",
    "family": "ipad-mini",
@@ -2411,26 +2387,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MXNE3J/A",
-   "part": "MXNE3J/A",
+   "id": "MXN83J/A",
+   "part": "MXN83J/A",
    "family": "ipad-mini",
    "family_label": "iPad mini",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "パープル / 256GB / Wi-Fi",
-   "price": 116800,
+   "name": "スターライト / 128GB / Wi-Fi",
+   "price": 99800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
   {
-   "id": "MXND3J/A",
-   "part": "MXND3J/A",
+   "id": "MXN93J/A",
+   "part": "MXN93J/A",
    "family": "ipad-mini",
    "family_label": "iPad mini",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "スターライト / 256GB / Wi-Fi",
-   "price": 116800,
+   "name": "パープル / 128GB / Wi-Fi",
+   "price": 99800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2459,14 +2435,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MXPR3J/A",
-   "part": "MXPR3J/A",
+   "id": "MXND3J/A",
+   "part": "MXND3J/A",
    "family": "ipad-mini",
    "family_label": "iPad mini",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "パープル / 128GB / Wi-Fi + Cellular",
-   "price": 124800,
+   "name": "スターライト / 256GB / Wi-Fi",
+   "price": 116800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MXNE3J/A",
+   "part": "MXNE3J/A",
+   "family": "ipad-mini",
+   "family_label": "iPad mini",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
+   "name": "パープル / 256GB / Wi-Fi",
+   "price": 116800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2478,18 +2466,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
    "name": "スペースグレイ / 128GB / Wi-Fi + Cellular",
-   "price": 124800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MXPQ3J/A",
-   "part": "MXPQ3J/A",
-   "family": "ipad-mini",
-   "family_label": "iPad mini",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "スターライト / 128GB / Wi-Fi + Cellular",
    "price": 124800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2507,14 +2483,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MXPY3J/A",
-   "part": "MXPY3J/A",
+   "id": "MXPQ3J/A",
+   "part": "MXPQ3J/A",
    "family": "ipad-mini",
    "family_label": "iPad mini",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "パープル / 256GB / Wi-Fi + Cellular",
-   "price": 141800,
+   "name": "スターライト / 128GB / Wi-Fi + Cellular",
+   "price": 124800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MXPR3J/A",
+   "part": "MXPR3J/A",
+   "family": "ipad-mini",
+   "family_label": "iPad mini",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
+   "name": "パープル / 128GB / Wi-Fi + Cellular",
+   "price": 124800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2526,18 +2514,6 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
    "name": "スペースグレイ / 256GB / Wi-Fi + Cellular",
-   "price": 141800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MXPX3J/A",
-   "part": "MXPX3J/A",
-   "family": "ipad-mini",
-   "family_label": "iPad mini",
-   "category": "iPad",
-   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "スターライト / 256GB / Wi-Fi + Cellular",
    "price": 141800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2555,26 +2531,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MYH33J/A",
-   "part": "MYH33J/A",
+   "id": "MXPX3J/A",
+   "part": "MXPX3J/A",
    "family": "ipad-mini",
    "family_label": "iPad mini",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "パープル / 512GB / Wi-Fi",
-   "price": 151800,
+   "name": "スターライト / 256GB / Wi-Fi + Cellular",
+   "price": 141800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
   {
-   "id": "MYH23J/A",
-   "part": "MYH23J/A",
+   "id": "MXPY3J/A",
+   "part": "MXPY3J/A",
    "family": "ipad-mini",
    "family_label": "iPad mini",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "スターライト / 512GB / Wi-Fi",
-   "price": 151800,
+   "name": "パープル / 256GB / Wi-Fi + Cellular",
+   "price": 141800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2603,14 +2579,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MYHF3J/A",
-   "part": "MYHF3J/A",
+   "id": "MYH23J/A",
+   "part": "MYH23J/A",
    "family": "ipad-mini",
    "family_label": "iPad mini",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "パープル / 512GB / Wi-Fi + Cellular",
-   "price": 176800,
+   "name": "スターライト / 512GB / Wi-Fi",
+   "price": 151800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MYH33J/A",
+   "part": "MYH33J/A",
+   "family": "ipad-mini",
+   "family_label": "iPad mini",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
+   "name": "パープル / 512GB / Wi-Fi",
+   "price": 151800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2622,6 +2610,18 @@
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
    "name": "スペースグレイ / 512GB / Wi-Fi + Cellular",
+   "price": 176800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MYHD3J/A",
+   "part": "MYHD3J/A",
+   "family": "ipad-mini",
+   "family_label": "iPad mini",
+   "category": "iPad",
+   "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
+   "name": "ブルー / 512GB / Wi-Fi + Cellular",
    "price": 176800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2639,13 +2639,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MYHD3J/A",
-   "part": "MYHD3J/A",
+   "id": "MYHF3J/A",
+   "part": "MYHF3J/A",
    "family": "ipad-mini",
    "family_label": "iPad mini",
    "category": "iPad",
    "url": "https://www.apple.com/jp/shop/buy-ipad/ipad-mini",
-   "name": "ブルー / 512GB / Wi-Fi + Cellular",
+   "name": "パープル / 512GB / Wi-Fi + Cellular",
    "price": 176800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2735,13 +2735,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDHH4J/A",
-   "part": "MDHH4J/A",
+   "id": "MDH74J/A",
+   "part": "MDH74J/A",
    "family": "macbook-air",
    "family_label": "MacBook Air",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
-   "name": "スカイブルー / 10コアCPU、8コアGPU、16コアNeural Engine / 13インチ",
+   "name": "シルバー / 10コアCPU、8コアGPU、16コアNeural Engine / 13インチ",
    "price": 224800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2771,14 +2771,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDH74J/A",
-   "part": "MDH74J/A",
+   "id": "MDHH4J/A",
+   "part": "MDHH4J/A",
    "family": "macbook-air",
    "family_label": "MacBook Air",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
-   "name": "シルバー / 10コアCPU、8コアGPU、16コアNeural Engine / 13インチ",
+   "name": "スカイブルー / 10コアCPU、8コアGPU、16コアNeural Engine / 13インチ",
    "price": 224800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "buy-mac/macbook-air#13inch-midnight-10-10",
+   "part": null,
+   "family": "macbook-air",
+   "family_label": "MacBook Air",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
+   "name": "ミッドナイト / 10コアCPU、10コアGPU、16コアNeural Engine / 13インチ",
+   "price": 242800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2802,18 +2814,6 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
    "name": "スカイブルー / 10コアCPU、10コアGPU、16コアNeural Engine / 13インチ",
-   "price": 242800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "buy-mac/macbook-air#13inch-midnight-10-10",
-   "part": null,
-   "family": "macbook-air",
-   "family_label": "MacBook Air",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
-   "name": "ミッドナイト / 10コアCPU、10コアGPU、16コアNeural Engine / 13インチ",
    "price": 242800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2843,18 +2843,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDVQ4J/A",
-   "part": "MDVQ4J/A",
-   "family": "macbook-air",
-   "family_label": "MacBook Air",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
-   "name": "スカイブルー / 10コアCPU、10コアGPU、16コアNeural Engine / 15インチ",
-   "price": 264800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MDVD4J/A",
    "part": "MDVD4J/A",
    "family": "macbook-air",
@@ -2875,6 +2863,42 @@
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
    "name": "ミッドナイト / 10コアCPU、10コアGPU、16コアNeural Engine / 15インチ",
    "price": 264800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDVQ4J/A",
+   "part": "MDVQ4J/A",
+   "family": "macbook-air",
+   "family_label": "MacBook Air",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
+   "name": "スカイブルー / 10コアCPU、10コアGPU、16コアNeural Engine / 15インチ",
+   "price": 264800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHFA4J/A",
+   "part": "MHFA4J/A",
+   "family": "macbook-neo",
+   "family_label": "MacBook Neo",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
+   "name": "シルバー / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
+   "price": 119800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHFD4J/A",
+   "part": "MHFD4J/A",
+   "family": "macbook-neo",
+   "family_label": "MacBook Neo",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
+   "name": "シトラス / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
+   "price": 119800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2903,42 +2927,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MHFD4J/A",
-   "part": "MHFD4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シトラス / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFA4J/A",
-   "part": "MHFA4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シルバー / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFJ4J/A",
-   "part": "MHFJ4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "ブラッシュ / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MHFC4J/A",
    "part": "MHFC4J/A",
    "family": "macbook-neo",
@@ -2946,18 +2934,6 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
    "name": "シルバー / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFG4J/A",
-   "part": "MHFG4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "インディゴ / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
    "price": 137800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -2975,14 +2951,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MDE54J/A",
-   "part": "MDE54J/A",
-   "family": "macbook-pro",
-   "family_label": "MacBook Pro",
+   "id": "MHFG4J/A",
+   "part": "MHFG4J/A",
+   "family": "macbook-neo",
+   "family_label": "MacBook Neo",
    "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
-   "name": "シルバー / M5チップ / 10コアCPU、10コアGPU / 標準ディスプレイ / 14インチ",
-   "price": 339800,
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
+   "name": "インディゴ / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
+   "price": 137800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHFJ4J/A",
+   "part": "MHFJ4J/A",
+   "family": "macbook-neo",
+   "family_label": "MacBook Neo",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
+   "name": "ブラッシュ / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
+   "price": 137800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2994,6 +2982,18 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
    "name": "スペースブラック / M5チップ / 10コアCPU、10コアGPU / 標準ディスプレイ / 14インチ",
+   "price": 339800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MDE54J/A",
+   "part": "MDE54J/A",
+   "family": "macbook-pro",
+   "family_label": "MacBook Pro",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
+   "name": "シルバー / M5チップ / 10コアCPU、10コアGPU / 標準ディスプレイ / 14インチ",
    "price": 339800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3047,18 +3047,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "buy-mac/macbook-pro#14inch-spaceblack-nano_texture-m5pro-15-16",
-   "part": null,
-   "family": "macbook-pro",
-   "family_label": "MacBook Pro",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
-   "name": "スペースブラック / M5 Proチップ / 15コアCPU、16コアGPU / Nano-textureディスプレイ / 14インチ",
-   "price": 456800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "buy-mac/macbook-pro#14inch-silver-nano_texture-m5pro-15-16",
    "part": null,
    "family": "macbook-pro",
@@ -3066,6 +3054,18 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
    "name": "シルバー / M5 Proチップ / 15コアCPU、16コアGPU / Nano-textureディスプレイ / 14インチ",
+   "price": 456800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "buy-mac/macbook-pro#14inch-spaceblack-nano_texture-m5pro-15-16",
+   "part": null,
+   "family": "macbook-pro",
+   "family_label": "MacBook Pro",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
+   "name": "スペースブラック / M5 Proチップ / 15コアCPU、16コアGPU / Nano-textureディスプレイ / 14インチ",
    "price": 456800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3119,18 +3119,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MGEA4J/A",
-   "part": "MGEA4J/A",
-   "family": "macbook-pro",
-   "family_label": "MacBook Pro",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
-   "name": "スペースブラック / M5 Proチップ / 18コアCPU、20コアGPU / 標準ディスプレイ / 16インチ",
-   "price": 519800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MGE44J/A",
    "part": "MGE44J/A",
    "family": "macbook-pro",
@@ -3138,6 +3126,18 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
    "name": "シルバー / M5 Proチップ / 18コアCPU、20コアGPU / 標準ディスプレイ / 16インチ",
+   "price": 519800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MGEA4J/A",
+   "part": "MGEA4J/A",
+   "family": "macbook-pro",
+   "family_label": "MacBook Pro",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
+   "name": "スペースブラック / M5 Proチップ / 18コアCPU、20コアGPU / 標準ディスプレイ / 16インチ",
    "price": 519800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3191,18 +3191,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "buy-mac/macbook-pro#14inch-spaceblack-nano_texture-m5max-18-32",
-   "part": null,
-   "family": "macbook-pro",
-   "family_label": "MacBook Pro",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
-   "name": "スペースブラック / M5 Maxチップ / 18コアCPU、32コアGPU / Nano-textureディスプレイ / 14インチ",
-   "price": 726800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "buy-mac/macbook-pro#14inch-silver-nano_texture-m5max-18-32",
    "part": null,
    "family": "macbook-pro",
@@ -3215,14 +3203,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MGED4J/A",
-   "part": "MGED4J/A",
+   "id": "buy-mac/macbook-pro#14inch-spaceblack-nano_texture-m5max-18-32",
+   "part": null,
    "family": "macbook-pro",
    "family_label": "MacBook Pro",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
-   "name": "スペースブラック / M5 Maxチップ / 18コアCPU、32コアGPU / 標準ディスプレイ / 16インチ",
-   "price": 749800,
+   "name": "スペースブラック / M5 Maxチップ / 18コアCPU、32コアGPU / Nano-textureディスプレイ / 14インチ",
+   "price": 726800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -3234,6 +3222,18 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
    "name": "シルバー / M5 Maxチップ / 18コアCPU、32コアGPU / 標準ディスプレイ / 16インチ",
+   "price": 749800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MGED4J/A",
+   "part": "MGED4J/A",
+   "family": "macbook-pro",
+   "family_label": "MacBook Pro",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
+   "name": "スペースブラック / M5 Maxチップ / 18コアCPU、32コアGPU / 標準ディスプレイ / 16インチ",
    "price": 749800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3287,18 +3287,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "buy-mac/macbook-pro#14inch-spaceblack-nano_texture-m5max-18-40",
-   "part": null,
-   "family": "macbook-pro",
-   "family_label": "MacBook Pro",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
-   "name": "スペースブラック / M5 Maxチップ / 18コアCPU、40コアGPU / Nano-textureディスプレイ / 14インチ",
-   "price": 834800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "buy-mac/macbook-pro#14inch-silver-nano_texture-m5max-18-40",
    "part": null,
    "family": "macbook-pro",
@@ -3306,6 +3294,18 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
    "name": "シルバー / M5 Maxチップ / 18コアCPU、40コアGPU / Nano-textureディスプレイ / 14インチ",
+   "price": 834800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "buy-mac/macbook-pro#14inch-spaceblack-nano_texture-m5max-18-40",
+   "part": null,
+   "family": "macbook-pro",
+   "family_label": "MacBook Pro",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
+   "name": "スペースブラック / M5 Maxチップ / 18コアCPU、40コアGPU / Nano-textureディスプレイ / 14インチ",
    "price": 834800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3479,37 +3479,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "buy-mac/imac#yellow-8-8",
-   "part": null,
+   "id": "MWUC3J/A",
+   "part": "MWUC3J/A",
    "family": "imac",
    "family_label": "iMac",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "イエロー / M4チップ、 Thunderboltポート x 2",
-   "price": 249800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MWUF3J/A",
-   "part": "MWUF3J/A",
-   "family": "imac",
-   "family_label": "iMac",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "ブルー / M4チップ、 Thunderboltポート x 2",
-   "price": 249800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "buy-mac/imac#purple-8-8",
-   "part": null,
-   "family": "imac",
-   "family_label": "iMac",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "パープル / M4チップ、 Thunderboltポート x 2",
+   "name": "シルバー / M4チップ、 Thunderboltポート x 2",
    "price": 249800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3522,6 +3498,18 @@
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
    "name": "グリーン / M4チップ、 Thunderboltポート x 2",
+   "price": 249800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MWUF3J/A",
+   "part": "MWUF3J/A",
+   "family": "imac",
+   "family_label": "iMac",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+   "name": "ブルー / M4チップ、 Thunderboltポート x 2",
    "price": 249800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3551,13 +3539,25 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MWUC3J/A",
-   "part": "MWUC3J/A",
+   "id": "buy-mac/imac#purple-8-8",
+   "part": null,
    "family": "imac",
    "family_label": "iMac",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "シルバー / M4チップ、 Thunderboltポート x 2",
+   "name": "パープル / M4チップ、 Thunderboltポート x 2",
+   "price": 249800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "buy-mac/imac#yellow-8-8",
+   "part": null,
+   "family": "imac",
+   "family_label": "iMac",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+   "name": "イエロー / M4チップ、 Thunderboltポート x 2",
    "price": 249800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3575,18 +3575,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MWV43J/A",
-   "part": "MWV43J/A",
-   "family": "imac",
-   "family_label": "iMac",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "ピンク / M4チップ、 Thunderboltポート x 4",
-   "price": 289800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MWUY3J/A",
    "part": "MWUY3J/A",
    "family": "imac",
@@ -3599,13 +3587,25 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "buy-mac/imac#yellow-10-10",
-   "part": null,
+   "id": "MWV13J/A",
+   "part": "MWV13J/A",
    "family": "imac",
    "family_label": "iMac",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "イエロー / M4チップ、 Thunderboltポート x 4",
+   "name": "ブルー / M4チップ、 Thunderboltポート x 4",
+   "price": 289800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MWV43J/A",
+   "part": "MWV43J/A",
+   "family": "imac",
+   "family_label": "iMac",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/imac",
+   "name": "ピンク / M4チップ、 Thunderboltポート x 4",
    "price": 289800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3635,14 +3635,26 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MWV13J/A",
-   "part": "MWV13J/A",
+   "id": "buy-mac/imac#yellow-10-10",
+   "part": null,
    "family": "imac",
    "family_label": "iMac",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/imac",
-   "name": "ブルー / M4チップ、 Thunderboltポート x 4",
+   "name": "イエロー / M4チップ、 Thunderboltポート x 4",
    "price": 289800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MEW04J/A",
+   "part": "MEW04J/A",
+   "family": "apple-watch",
+   "family_label": "Apple Watch",
+   "category": "Apple Watch",
+   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
+   "name": "42mm / アルミニウム / Jet Black / GPSモデル",
+   "price": 71800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -3654,18 +3666,6 @@
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
    "name": "42mm / アルミニウム / Space Gray / GPSモデル",
-   "price": 71800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MEW34J/A",
-   "part": "MEW34J/A",
-   "family": "apple-watch",
-   "family_label": "Apple Watch",
-   "category": "Apple Watch",
-   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
-   "name": "42mm / アルミニウム / Silver / GPSモデル",
    "price": 71800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3683,25 +3683,25 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MEW04J/A",
-   "part": "MEW04J/A",
+   "id": "MEW34J/A",
+   "part": "MEW34J/A",
    "family": "apple-watch",
    "family_label": "Apple Watch",
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
-   "name": "42mm / アルミニウム / Jet Black / GPSモデル",
+   "name": "42mm / アルミニウム / Silver / GPSモデル",
    "price": 71800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
   {
-   "id": "MEWC4J/A",
-   "part": "MEWC4J/A",
+   "id": "MEW84J/A",
+   "part": "MEW84J/A",
    "family": "apple-watch",
    "family_label": "Apple Watch",
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
-   "name": "46mm / アルミニウム / Silver / GPSモデル",
+   "name": "46mm / アルミニウム / Jet Black / GPSモデル",
    "price": 76800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3719,18 +3719,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MEW84J/A",
-   "part": "MEW84J/A",
-   "family": "apple-watch",
-   "family_label": "Apple Watch",
-   "category": "Apple Watch",
-   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
-   "name": "46mm / アルミニウム / Jet Black / GPSモデル",
-   "price": 76800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MEWA4J/A",
    "part": "MEWA4J/A",
    "family": "apple-watch",
@@ -3738,6 +3726,18 @@
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
    "name": "46mm / アルミニウム / Rosegold / GPSモデル",
+   "price": 76800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MEWC4J/A",
+   "part": "MEWC4J/A",
+   "family": "apple-watch",
+   "family_label": "Apple Watch",
+   "category": "Apple Watch",
+   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
+   "name": "46mm / アルミニウム / Silver / GPSモデル",
    "price": 76800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3791,6 +3791,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MFAA4J/A",
+   "part": "MFAA4J/A",
+   "family": "apple-watch",
+   "family_label": "Apple Watch",
+   "category": "Apple Watch",
+   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
+   "name": "46mm / アルミニウム / Jet Black / GPS + Cellularモ‍デ‍ル",
+   "price": 94800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MFAE4J/A",
    "part": "MFAE4J/A",
    "family": "apple-watch",
@@ -3798,18 +3810,6 @@
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
    "name": "46mm / アルミニウム / Space Gray / GPS + Cellularモ‍デ‍ル",
-   "price": 94800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MFAJ4J/A",
-   "part": "MFAJ4J/A",
-   "family": "apple-watch",
-   "family_label": "Apple Watch",
-   "category": "Apple Watch",
-   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
-   "name": "46mm / アルミニウム / Silver / GPS + Cellularモ‍デ‍ル",
    "price": 94800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3827,13 +3827,13 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MFAA4J/A",
-   "part": "MFAA4J/A",
+   "id": "MFAJ4J/A",
+   "part": "MFAJ4J/A",
    "family": "apple-watch",
    "family_label": "Apple Watch",
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
-   "name": "46mm / アルミニウム / Jet Black / GPS + Cellularモ‍デ‍ル",
+   "name": "46mm / アルミニウム / Silver / GPS + Cellularモ‍デ‍ル",
    "price": 94800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -3851,18 +3851,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MF9M4J/A",
-   "part": "MF9M4J/A",
-   "family": "apple-watch",
-   "family_label": "Apple Watch",
-   "category": "Apple Watch",
-   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
-   "name": "42mm / チタニウム / Gold / GPS + Cellularモ‍デ‍ル",
-   "price": 125800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MF9K4J/A",
    "part": "MF9K4J/A",
    "family": "apple-watch",
@@ -3875,14 +3863,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MFC34J/A",
-   "part": "MFC34J/A",
+   "id": "MF9M4J/A",
+   "part": "MF9M4J/A",
    "family": "apple-watch",
    "family_label": "Apple Watch",
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
-   "name": "46mm / チタニウム / Gold / GPS + Cellularモ‍デ‍ル",
-   "price": 134800,
+   "name": "42mm / チタニウム / Gold / GPS + Cellularモ‍デ‍ル",
+   "price": 125800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -3911,14 +3899,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MEHX4J/A",
-   "part": "MEHX4J/A",
-   "family": "apple-watch-se",
-   "family_label": "Apple Watch SE",
+   "id": "MFC34J/A",
+   "part": "MFC34J/A",
+   "family": "apple-watch",
+   "family_label": "Apple Watch",
    "category": "Apple Watch",
-   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se",
-   "name": "40mm / Aluminum / Midnight / GPSモデル",
-   "price": 41800,
+   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch",
+   "name": "46mm / チタニウム / Gold / GPS + Cellularモ‍デ‍ル",
+   "price": 134800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -3935,14 +3923,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MEP34J/A",
-   "part": "MEP34J/A",
+   "id": "MEHX4J/A",
+   "part": "MEHX4J/A",
    "family": "apple-watch-se",
    "family_label": "Apple Watch SE",
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se",
-   "name": "44mm / Aluminum / Midnight / GPSモデル",
-   "price": 46800,
+   "name": "40mm / Aluminum / Midnight / GPSモデル",
+   "price": 41800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -3959,14 +3947,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MEQ24J/A",
-   "part": "MEQ24J/A",
+   "id": "MEP34J/A",
+   "part": "MEP34J/A",
    "family": "apple-watch-se",
    "family_label": "Apple Watch SE",
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se",
-   "name": "40mm / Aluminum / Midnight / GPS + Cellularモ‍デ‍ル",
-   "price": 50800,
+   "name": "44mm / Aluminum / Midnight / GPSモデル",
+   "price": 46800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -3983,14 +3971,14 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MEQ44J/A",
-   "part": "MEQ44J/A",
+   "id": "MEQ24J/A",
+   "part": "MEQ24J/A",
    "family": "apple-watch-se",
    "family_label": "Apple Watch SE",
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se",
-   "name": "44mm / Aluminum / Midnight / GPS + Cellularモ‍デ‍ル",
-   "price": 55800,
+   "name": "40mm / Aluminum / Midnight / GPS + Cellularモ‍デ‍ル",
+   "price": 50800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -4002,6 +3990,18 @@
    "category": "Apple Watch",
    "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se",
    "name": "44mm / Aluminum / Starlight / GPS + Cellularモ‍デ‍ル",
+   "price": 55800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MEQ44J/A",
+   "part": "MEQ44J/A",
+   "family": "apple-watch-se",
+   "family_label": "Apple Watch SE",
+   "category": "Apple Watch",
+   "url": "https://www.apple.com/jp/shop/buy-watch/apple-watch-se",
+   "name": "44mm / Aluminum / Midnight / GPS + Cellularモ‍デ‍ル",
    "price": 55800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
@@ -4055,30 +4055,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MHWM4ZA/A",
-   "part": "MHWM4ZA/A",
-   "family": "airpods-max",
-   "family_label": "AirPods Max",
-   "category": "AirPods",
-   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max",
-   "name": "ブルー",
-   "price": 89800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHWP4ZA/A",
-   "part": "MHWP4ZA/A",
-   "family": "airpods-max",
-   "family_label": "AirPods Max",
-   "category": "AirPods",
-   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max",
-   "name": "パープル",
-   "price": 89800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MHWK4ZA/A",
    "part": "MHWK4ZA/A",
    "family": "airpods-max",
@@ -4103,6 +4079,18 @@
    "price_since": "2026-08-14"
   },
   {
+   "id": "MHWM4ZA/A",
+   "part": "MHWM4ZA/A",
+   "family": "airpods-max",
+   "family_label": "AirPods Max",
+   "category": "AirPods",
+   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max",
+   "name": "ブルー",
+   "price": 89800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
    "id": "MHWN4ZA/A",
    "part": "MHWN4ZA/A",
    "family": "airpods-max",
@@ -4110,6 +4098,18 @@
    "category": "AirPods",
    "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max",
    "name": "オレンジ",
+   "price": 89800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHWP4ZA/A",
+   "part": "MHWP4ZA/A",
+   "family": "airpods-max",
+   "family_label": "AirPods Max",
+   "category": "AirPods",
+   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max",
+   "name": "パープル",
    "price": 89800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"

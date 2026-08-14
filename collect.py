@@ -355,7 +355,8 @@ def diff_family(family_id: str, label: str, category: str, url: str,
 def prune_events(events: list[dict]) -> list[dict]:
     limit = (dt.datetime.now(JST) - dt.timedelta(days=KEEP_EVENT_DAYS)).strftime("%Y-%m-%d")
     kept = [e for e in events if e.get("date", "") >= limit]
-    kept.sort(key=lambda e: (e.get("date", ""), e.get("family_label", ""), e.get("name", "")), reverse=True)
+    kept.sort(key=lambda e: (e.get("date", ""), e.get("family_label", ""),
+                             e.get("name", ""), e.get("sku", "")), reverse=True)
     return kept[:KEEP_EVENT_MAX]
 
 
@@ -453,7 +454,7 @@ def main() -> int:
     def order(category: str) -> int:
         return CATEGORY_ORDER.index(category) if category in CATEGORY_ORDER else len(CATEGORY_ORDER)
 
-    skus.sort(key=lambda s: (order(s["category"]), s["family_label"], s["price"]))
+    skus.sort(key=lambda s: (order(s["category"]), s["family_label"], s["price"], s["id"]))
     families.sort(key=lambda f: (order(f["category"]), f["label"]))
 
     out = {
@@ -463,6 +464,17 @@ def main() -> int:
         "skus": skus,
         "events": all_events,
     }
+
+    # 中身が前回とまったく同じなら、ファイルに触らない。
+    # 時刻だけ書き換えると、3時間ごとに「何も起きていないコミット」が積み上がる。
+    if os.path.exists(OUTPUT_PATH):
+        with open(OUTPUT_PATH, encoding="utf-8") as f:
+            before = json.load(f)
+        if {k: v for k, v in before.items() if k != "updated"} == \
+           {k: v for k, v in out.items() if k != "updated"}:
+            print(f"\n{len(skus)}件のSKUを確認しました。前回から動きはありません。")
+            return 0
+
     os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
     with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1)
