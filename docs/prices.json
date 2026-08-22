@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14T21:01:04+09:00",
+ "updated": "2026-08-22T21:17:39+09:00",
  "source": "Apple Store（日本）",
  "families": [
   {
@@ -127,6 +127,12 @@
    "label": "AirPods Max",
    "category": "AirPods",
    "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max"
+  },
+  {
+   "id": "airpods-max-2",
+   "label": "AirPods Max（第2世代）",
+   "category": "AirPods",
+   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max-2"
   },
   {
    "id": "airpods-pro-3",
@@ -4109,6 +4115,66 @@
    "family_label": "AirPods Max",
    "category": "AirPods",
    "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max",
+   "name": "パープル",
+   "price": 89800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHWK4ZA/A",
+   "part": "MHWK4ZA/A",
+   "family": "airpods-max-2",
+   "family_label": "AirPods Max（第2世代）",
+   "category": "AirPods",
+   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max-2",
+   "name": "ミッドナイト",
+   "price": 89800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHWL4ZA/A",
+   "part": "MHWL4ZA/A",
+   "family": "airpods-max-2",
+   "family_label": "AirPods Max（第2世代）",
+   "category": "AirPods",
+   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max-2",
+   "name": "スターライト",
+   "price": 89800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHWM4ZA/A",
+   "part": "MHWM4ZA/A",
+   "family": "airpods-max-2",
+   "family_label": "AirPods Max（第2世代）",
+   "category": "AirPods",
+   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max-2",
+   "name": "ブルー",
+   "price": 89800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHWN4ZA/A",
+   "part": "MHWN4ZA/A",
+   "family": "airpods-max-2",
+   "family_label": "AirPods Max（第2世代）",
+   "category": "AirPods",
+   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max-2",
+   "name": "オレンジ",
+   "price": 89800,
+   "first_seen": "2026-08-14",
+   "price_since": "2026-08-14"
+  },
+  {
+   "id": "MHWP4ZA/A",
+   "part": "MHWP4ZA/A",
+   "family": "airpods-max-2",
+   "family_label": "AirPods Max（第2世代）",
+   "category": "AirPods",
+   "url": "https://www.apple.com/jp/shop/buy-airpods/airpods-max-2",
    "name": "パープル",
    "price": 89800,
    "first_seen": "2026-08-14",
