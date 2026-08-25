@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T00:11:13+09:00",
+ "updated": "2026-08-26T00:33:15+09:00",
  "source": "Apple Store（日本）",
  "families": [
   {
@@ -85,12 +85,6 @@
    "label": "Studio Display",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/studio-display"
-  },
-  {
-   "id": "studio-display-xdr",
-   "label": "Studio Display XDR",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/studio-display-xdr"
   },
   {
    "id": "imac",
@@ -2651,88 +2645,88 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MU963J/A",
-   "part": "MU963J/A",
+   "id": "MHL64J/A",
+   "part": "MHL64J/A",
    "family": "mac-studio",
    "family_label": "Mac Studio",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
-   "name": "M4 Maxチップ / 14コアCPU、32コアGPU",
+   "name": "M5 Maxチップ / 18コアCPU、32コアGPU",
    "price": 419800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
+   "first_seen": "2026-08-26",
+   "price_since": "2026-08-26"
   },
   {
-   "id": "buy-mac/mac-studio#m4max-16-40",
+   "id": "buy-mac/mac-studio#m5max-18-40",
    "part": null,
    "family": "mac-studio",
    "family_label": "Mac Studio",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
-   "name": "M4 Maxチップ / 16コアCPU、40コアGPU",
-   "price": 599800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
+   "name": "M5 Maxチップ / 18コアCPU、40コアGPU",
+   "price": 527800,
+   "first_seen": "2026-08-26",
+   "price_since": "2026-08-26"
   },
   {
-   "id": "MU973J/A",
-   "part": "MU973J/A",
+   "id": "MHL74J/A",
+   "part": "MHL74J/A",
    "family": "mac-studio",
    "family_label": "Mac Studio",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
-   "name": "M3 Ultraチップ / 28コアCPU、60コアGPU",
-   "price": 899800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
+   "name": "M5 Ultraチップ / 30コアCPU、64コアGPU",
+   "price": 949800,
+   "first_seen": "2026-08-26",
+   "price_since": "2026-08-26"
   },
   {
-   "id": "buy-mac/mac-studio#m3ultra-32-80",
+   "id": "buy-mac/mac-studio#m5ultra-36-80",
    "part": null,
    "family": "mac-studio",
    "family_label": "Mac Studio",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
-   "name": "M3 Ultraチップ / 32コアCPU、80コアGPU",
-   "price": 1169800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
+   "name": "M5 Ultraチップ / 36コアCPU、80コアGPU",
+   "price": 1183800,
+   "first_seen": "2026-08-26",
+   "price_since": "2026-08-26"
   },
   {
-   "id": "MU9D3J/A",
-   "part": "MU9D3J/A",
+   "id": "MHQK4J/A",
+   "part": "MHQK4J/A",
    "family": "mac-mini",
    "family_label": "Mac mini",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
-   "name": "M4チップ / 10コアCPU、10コアGPU",
-   "price": 134800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
+   "name": "M6チップ / 12コアCPU、12コアGPU",
+   "price": 149800,
+   "first_seen": "2026-08-26",
+   "price_since": "2026-08-26"
   },
   {
-   "id": "MCX44J/A",
-   "part": "MCX44J/A",
+   "id": "MHQN4J/A",
+   "part": "MHQN4J/A",
    "family": "mac-mini",
    "family_label": "Mac mini",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
-   "name": "M4 Proチップ / 12コアCPU、16コアGPU",
-   "price": 279800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
+   "name": "M5 Proチップ / 15コアCPU、16コアGPU",
+   "price": 299800,
+   "first_seen": "2026-08-26",
+   "price_since": "2026-08-26"
   },
   {
-   "id": "buy-mac/mac-mini#m4pro-14-20",
+   "id": "buy-mac/mac-mini#m5pro-18-20",
    "part": null,
    "family": "mac-mini",
    "family_label": "Mac mini",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
-   "name": "M4 Proチップ / 14コアCPU、20コアGPU",
-   "price": 315800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
+   "name": "M5 Proチップ / 18コアCPU、20コアGPU",
+   "price": 335800,
+   "first_seen": "2026-08-26",
+   "price_since": "2026-08-26"
   },
   {
    "id": "MDH74J/A",
@@ -3431,54 +3425,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MFEN4J/A",
-   "part": "MFEN4J/A",
-   "family": "studio-display-xdr",
-   "family_label": "Studio Display XDR",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/studio-display-xdr",
-   "name": "VESAマウントアダプタ / 標準ガラス",
-   "price": 479800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MFEQ4J/A",
-   "part": "MFEQ4J/A",
-   "family": "studio-display-xdr",
-   "family_label": "Studio Display XDR",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/studio-display-xdr",
-   "name": "VESAマウントアダプタ / Nano-textureガラス",
-   "price": 529800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MFEL4J/A",
-   "part": "MFEL4J/A",
-   "family": "studio-display-xdr",
-   "family_label": "Studio Display XDR",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/studio-display-xdr",
-   "name": "傾きと高さを調整できるスタンド / 標準ガラス",
-   "price": 549800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MFEP4J/A",
-   "part": "MFEP4J/A",
-   "family": "studio-display-xdr",
-   "family_label": "Studio Display XDR",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/studio-display-xdr",
-   "name": "傾きと高さを調整できるスタンド / Nano-textureガラス",
-   "price": 599800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "MWUC3J/A",
    "part": "MWUC3J/A",
    "family": "imac",
@@ -4163,5 +4109,188 @@
    "price_since": "2026-08-14"
   }
  ],
- "events": []
+ "events": [
+  {
+   "date": "2026-08-26",
+   "type": "new",
+   "sku": "MHQK4J/A",
+   "family": "mac-mini",
+   "family_label": "Mac mini",
+   "category": "Mac",
+   "name": "M6チップ / 12コアCPU、12コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
+   "old_price": null,
+   "new_price": 149800,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "new",
+   "sku": "buy-mac/mac-mini#m5pro-18-20",
+   "family": "mac-mini",
+   "family_label": "Mac mini",
+   "category": "Mac",
+   "name": "M5 Proチップ / 18コアCPU、20コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
+   "old_price": null,
+   "new_price": 335800,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "new",
+   "sku": "MHQN4J/A",
+   "family": "mac-mini",
+   "family_label": "Mac mini",
+   "category": "Mac",
+   "name": "M5 Proチップ / 15コアCPU、16コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
+   "old_price": null,
+   "new_price": 299800,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "gone",
+   "sku": "MU9D3J/A",
+   "family": "mac-mini",
+   "family_label": "Mac mini",
+   "category": "Mac",
+   "name": "M4チップ / 10コアCPU、10コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
+   "old_price": 134800,
+   "new_price": null,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "gone",
+   "sku": "buy-mac/mac-mini#m4pro-14-20",
+   "family": "mac-mini",
+   "family_label": "Mac mini",
+   "category": "Mac",
+   "name": "M4 Proチップ / 14コアCPU、20コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
+   "old_price": 315800,
+   "new_price": null,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "gone",
+   "sku": "MCX44J/A",
+   "family": "mac-mini",
+   "family_label": "Mac mini",
+   "category": "Mac",
+   "name": "M4 Proチップ / 12コアCPU、16コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-mini",
+   "old_price": 279800,
+   "new_price": null,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "new",
+   "sku": "buy-mac/mac-studio#m5ultra-36-80",
+   "family": "mac-studio",
+   "family_label": "Mac Studio",
+   "category": "Mac",
+   "name": "M5 Ultraチップ / 36コアCPU、80コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+   "old_price": null,
+   "new_price": 1183800,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "new",
+   "sku": "MHL74J/A",
+   "family": "mac-studio",
+   "family_label": "Mac Studio",
+   "category": "Mac",
+   "name": "M5 Ultraチップ / 30コアCPU、64コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+   "old_price": null,
+   "new_price": 949800,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "new",
+   "sku": "buy-mac/mac-studio#m5max-18-40",
+   "family": "mac-studio",
+   "family_label": "Mac Studio",
+   "category": "Mac",
+   "name": "M5 Maxチップ / 18コアCPU、40コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+   "old_price": null,
+   "new_price": 527800,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "new",
+   "sku": "MHL64J/A",
+   "family": "mac-studio",
+   "family_label": "Mac Studio",
+   "category": "Mac",
+   "name": "M5 Maxチップ / 18コアCPU、32コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+   "old_price": null,
+   "new_price": 419800,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "gone",
+   "sku": "buy-mac/mac-studio#m4max-16-40",
+   "family": "mac-studio",
+   "family_label": "Mac Studio",
+   "category": "Mac",
+   "name": "M4 Maxチップ / 16コアCPU、40コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+   "old_price": 599800,
+   "new_price": null,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "gone",
+   "sku": "MU963J/A",
+   "family": "mac-studio",
+   "family_label": "Mac Studio",
+   "category": "Mac",
+   "name": "M4 Maxチップ / 14コアCPU、32コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+   "old_price": 419800,
+   "new_price": null,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "gone",
+   "sku": "buy-mac/mac-studio#m3ultra-32-80",
+   "family": "mac-studio",
+   "family_label": "Mac Studio",
+   "category": "Mac",
+   "name": "M3 Ultraチップ / 32コアCPU、80コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+   "old_price": 1169800,
+   "new_price": null,
+   "diff": null
+  },
+  {
+   "date": "2026-08-26",
+   "type": "gone",
+   "sku": "MU973J/A",
+   "family": "mac-studio",
+   "family_label": "Mac Studio",
+   "category": "Mac",
+   "name": "M3 Ultraチップ / 28コアCPU、60コアGPU",
+   "url": "https://www.apple.com/jp/shop/buy-mac/mac-studio",
+   "old_price": 899800,
+   "new_price": null,
+   "diff": null
+  }
+ ]
 }
