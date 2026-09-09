@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T00:33:15+09:00",
+ "updated": "2026-09-09T22:14:36+09:00",
  "source": "Apple Store（日本）",
  "families": [
   {
@@ -13,12 +13,6 @@
    "label": "iPhone 17 Pro",
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro"
-  },
-  {
-   "id": "iphone-17e",
-   "label": "iPhone 17e",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e"
   },
   {
    "id": "iphone-air",
@@ -67,12 +61,6 @@
    "label": "MacBook Air",
    "category": "Mac",
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air"
-  },
-  {
-   "id": "macbook-neo",
-   "label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
   },
   {
    "id": "macbook-pro",
@@ -505,78 +493,6 @@
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17-pro",
    "name": "iPhone 17 Pro Max / ディープブルー / 2TB",
    "price": 354800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHRN4J/A",
-   "part": "MHRN4J/A",
-   "family": "iphone-17e",
-   "family_label": "iPhone 17e",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ブラック / 256GB",
-   "price": 107800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHRP4J/A",
-   "part": "MHRP4J/A",
-   "family": "iphone-17e",
-   "family_label": "iPhone 17e",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ホワイト / 256GB",
-   "price": 107800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHRQ4J/A",
-   "part": "MHRQ4J/A",
-   "family": "iphone-17e",
-   "family_label": "iPhone 17e",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ソフトピンク / 256GB",
-   "price": 107800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHRR4J/A",
-   "part": "MHRR4J/A",
-   "family": "iphone-17e",
-   "family_label": "iPhone 17e",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ブラック / 512GB",
-   "price": 142800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHRT4J/A",
-   "part": "MHRT4J/A",
-   "family": "iphone-17e",
-   "family_label": "iPhone 17e",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ホワイト / 512GB",
-   "price": 142800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHRU4J/A",
-   "part": "MHRU4J/A",
-   "family": "iphone-17e",
-   "family_label": "iPhone 17e",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-17e",
-   "name": "ソフトピンク / 512GB",
-   "price": 142800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
@@ -2869,102 +2785,6 @@
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air",
    "name": "スカイブルー / 10コアCPU、10コアGPU、16コアNeural Engine / 15インチ",
    "price": 264800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFA4J/A",
-   "part": "MHFA4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シルバー / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFD4J/A",
-   "part": "MHFD4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シトラス / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFF4J/A",
-   "part": "MHFF4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "インディゴ / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFH4J/A",
-   "part": "MHFH4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "ブラッシュ / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFC4J/A",
-   "part": "MHFC4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シルバー / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFE4J/A",
-   "part": "MHFE4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シトラス / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFG4J/A",
-   "part": "MHFG4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "インディゴ / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
-   "id": "MHFJ4J/A",
-   "part": "MHFJ4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "ブラッシュ / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
   },
