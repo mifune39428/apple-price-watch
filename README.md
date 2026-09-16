@@ -26,6 +26,8 @@ python3 collect.py     # 価格を取り直して docs/prices.json を更新
 
 `更新.command` をダブルクリックすると、収集してから GitHub へ push まで行う。
 GitHub Actions（`.github/workflows/update.yml`）が3時間ごとに同じことをする。
+価格が動いたときは、更新画面と公開サイトの両方に、対象の構成・前の価格・
+今の価格・「何円安く（高く）なったか」を表示する。
 
 ## 出てくるファイル
 

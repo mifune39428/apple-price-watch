@@ -124,6 +124,9 @@
   .event .fam { font-weight: 600; font-size: 15px; }
   .event .name { font-size: 13px; color: var(--muted); }
   .event .money { font-size: 14px; margin-top: 3px; font-variant-numeric: tabular-nums; }
+  .event .change { font-size: 13px; margin-top: 2px; font-weight: 600; }
+  .event .change.up { color: var(--up); }
+  .event .change.down { color: var(--down); }
   .strike { text-decoration: line-through; color: var(--muted); }
   .gap.up { color: var(--up); font-weight: 600; }
   .gap.down { color: var(--down); font-weight: 600; }
@@ -247,16 +250,18 @@ function renderEvents(panel) {
     const money = el("div", "money");
     if (e.type === "price_up" || e.type === "price_down") {
       money.appendChild(el("span", "strike", yen(e.old_price)));
-      money.appendChild(document.createTextNode(" → " + yen(e.new_price) + " "));
-      const sign = e.diff > 0 ? "+" : "−";
-      money.appendChild(el("span", "gap " + (e.diff > 0 ? "up" : "down"),
-        `${sign}${Math.abs(e.diff).toLocaleString("ja-JP")}円`));
+      money.appendChild(document.createTextNode(" → " + yen(e.new_price)));
     } else if (e.type === "new") {
       money.textContent = yen(e.new_price);
     } else {
       money.appendChild(el("span", "strike", yen(e.old_price)));
     }
     body.appendChild(money);
+    if (e.type === "price_up" || e.type === "price_down") {
+      const direction = e.diff > 0 ? "高く" : "安く";
+      body.appendChild(el("div", "change " + (e.diff > 0 ? "up" : "down"),
+        `${Math.abs(e.diff).toLocaleString("ja-JP")}円${direction}なりました`));
+    }
     row.appendChild(body);
     group.appendChild(row);
   }

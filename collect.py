@@ -440,6 +440,14 @@ def main() -> int:
         changed = [e for e in family_events if e["type"] in ("price_up", "price_down")]
         mark = f" ← {len(changed)}件の価格変動" if changed else ""
         print(f"  ○ {label}: {len(current)}件{mark}")
+        for event in changed:
+            direction = "安く" if event["diff"] < 0 else "高く"
+            amount = abs(event["diff"])
+            print(
+                f"    ・{event['name']}: "
+                f"{event['old_price']:,}円 → {event['new_price']:,}円"
+                f"（{amount:,}円{direction}なりました）"
+            )
 
     if not skus:
         print("1件も取れませんでした。前回のファイルを壊さないよう、書き込みを中止します。")
