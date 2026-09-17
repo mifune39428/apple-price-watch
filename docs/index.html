@@ -128,30 +128,14 @@
   .event .change.up { color: var(--up); }
   .event .change.down { color: var(--down); }
   .strike { text-decoration: line-through; color: var(--muted); }
-  .gap.up { color: var(--up); font-weight: 600; }
-  .gap.down { color: var(--down); font-weight: 600; }
 
-  details.family {
+  .family-row {
     background: var(--card); border: 1px solid var(--line);
-    border-radius: 12px; margin-bottom: 8px; overflow: hidden;
-  }
-  details.family > summary {
-    cursor: pointer; list-style: none; padding: 12px 14px;
+    border-radius: 12px; margin-bottom: 8px; padding: 12px 14px;
     display: flex; justify-content: space-between; align-items: baseline; gap: 10px;
   }
-  details.family > summary::-webkit-details-marker { display: none; }
   .famname { font-weight: 600; font-size: 15px; }
   .famrange { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
-  .skus { border-top: 1px solid var(--line); }
-  .sku {
-    display: flex; justify-content: space-between; gap: 12px;
-    padding: 9px 14px; font-size: 13px; border-bottom: 1px solid var(--line);
-  }
-  .sku:last-child { border-bottom: 0; }
-  .sku .n { color: var(--muted); min-width: 0; }
-  .sku .p { flex: none; font-variant-numeric: tabular-nums; }
-  .sku .part { font-size: 11px; color: var(--muted); }
-  .recent { color: var(--accent); font-size: 11px; margin-left: 6px; }
 
   .empty { color: var(--muted); font-size: 14px; text-align: center; padding: 48px 16px; }
   footer { max-width: 860px; margin: 0 auto; padding: 8px 16px 32px; font-size: 12px; color: var(--muted); }
@@ -200,9 +184,26 @@ function dayLabel(iso) {
   return `${d.getMonth() + 1}月${d.getDate()}日（${w}）`;
 }
 
-function daysAgo(iso) {
-  const then = new Date(iso + "T00:00:00+09:00");
-  return Math.floor((Date.now() - then.getTime()) / 86400000);
+function familyName(name) {
+  return name.replace(/^Iphone\b/, "iPhone");
+}
+
+function yenRange(values) {
+  const nums = values.filter(Number.isFinite);
+  if (!nums.length) return "—";
+  const lo = Math.min(...nums), hi = Math.max(...nums);
+  return lo === hi ? yen(lo) : `${yen(lo)} 〜 ${yen(hi)}`;
+}
+
+function groupedEvents() {
+  const groups = new Map();
+  for (const e of data.events) {
+    if (category !== "すべて" && e.category !== category) continue;
+    const key = `${e.date}\t${e.type}\t${e.family}`;
+    if (!groups.has(key)) groups.set(key, { ...e, entries: [] });
+    groups.get(key).entries.push(e);
+  }
+  return [...groups.values()];
 }
 
 function categories() {
@@ -223,7 +224,7 @@ function renderFilters() {
 }
 
 function renderEvents(panel) {
-  const events = data.events.filter(e => category === "すべて" || e.category === category);
+  const events = groupedEvents();
   if (!events.length) {
     panel.appendChild(el("div", "empty",
       "まだ変動はありません。次に価格が動いたときにここへ出ます。"));
@@ -244,23 +245,23 @@ function renderEvents(panel) {
     row.appendChild(el("span", "badge " + e.type, BADGE[e.type] || e.type));
 
     const body = el("div", "body");
-    body.appendChild(el("div", "fam", e.family_label));
-    if (e.name) body.appendChild(el("div", "name", e.name));
+    body.appendChild(el("div", "fam", familyName(e.family_label)));
 
     const money = el("div", "money");
     if (e.type === "price_up" || e.type === "price_down") {
-      money.appendChild(el("span", "strike", yen(e.old_price)));
-      money.appendChild(document.createTextNode(" → " + yen(e.new_price)));
+      money.appendChild(el("span", "strike", yenRange(e.entries.map(x => x.old_price))));
+      money.appendChild(document.createTextNode(" → " + yenRange(e.entries.map(x => x.new_price))));
     } else if (e.type === "new") {
-      money.textContent = yen(e.new_price);
+      money.textContent = yenRange(e.entries.map(x => x.new_price));
     } else {
-      money.appendChild(el("span", "strike", yen(e.old_price)));
+      money.appendChild(el("span", "strike", yenRange(e.entries.map(x => x.old_price))));
     }
     body.appendChild(money);
     if (e.type === "price_up" || e.type === "price_down") {
       const direction = e.diff > 0 ? "高く" : "安く";
+      const changes = e.entries.map(x => Math.abs(x.diff));
       body.appendChild(el("div", "change " + (e.diff > 0 ? "up" : "down"),
-        `${Math.abs(e.diff).toLocaleString("ja-JP")}円${direction}なりました`));
+        `${yenRange(changes)}${direction}なりました`));
     }
     row.appendChild(body);
     group.appendChild(row);
@@ -279,31 +280,14 @@ function renderPrices(panel) {
     const prices = skus.map(s => s.price);
     const lo = Math.min(...prices), hi = Math.max(...prices);
 
-    const d = el("details", "family");
-    const sum = el("summary");
-    sum.appendChild(el("span", "famname", f.label));
-    sum.appendChild(el("span", "famrange",
+    const row = el("a", "family-row");
+    row.href = f.url;
+    row.target = "_blank";
+    row.rel = "noopener";
+    row.appendChild(el("span", "famname", familyName(f.label)));
+    row.appendChild(el("span", "famrange",
       lo === hi ? yen(lo) : `${yen(lo)} 〜 ${yen(hi)}`));
-    d.appendChild(sum);
-
-    const list = el("div", "skus");
-    for (const s of skus) {
-      const row = el("div", "sku");
-      const n = el("div", "n");
-      n.appendChild(el("div", null, s.name));
-      if (s.part) n.appendChild(el("div", "part", s.part));
-      row.appendChild(n);
-      const p = el("div", "p");
-      p.appendChild(document.createTextNode(yen(s.price)));
-      const ago = daysAgo(s.price_since);
-      if (ago <= 30 && s.price_since !== s.first_seen) {
-        p.appendChild(el("span", "recent", ago === 0 ? "本日改定" : `${ago}日前に改定`));
-      }
-      row.appendChild(p);
-      list.appendChild(row);
-    }
-    d.appendChild(list);
-    panel.appendChild(d);
+    panel.appendChild(row);
   }
 }
 
@@ -325,7 +309,7 @@ fetch("prices.json?" + Date.now())
     data = json;
     const t = new Date(json.updated);
     document.getElementById("updated").textContent =
-      `${data.skus.length}モデルを3時間ごとに確認中 ・ 最後に動きがあったのは ${t.getMonth() + 1}月${t.getDate()}日 ${String(t.getHours()).padStart(2, "0")}:${String(t.getMinutes()).padStart(2, "0")}`;
+      `${data.families.length}製品を3時間ごとに確認中 ・ 最後に動きがあったのは ${t.getMonth() + 1}月${t.getDate()}日 ${String(t.getHours()).padStart(2, "0")}:${String(t.getMinutes()).padStart(2, "0")}`;
     render();
   })
   .catch(() => {

@@ -274,7 +274,20 @@ def discover_paths(store_html: str | None) -> list[str]:
 def family_label(slug: str, labels: dict) -> str:
     if slug in labels:
         return labels[slug]
-    return " ".join(w.capitalize() for w in slug.split("-"))
+    apple_names = {
+        "iphone": "iPhone",
+        "ipad": "iPad",
+        "imac": "iMac",
+        "macbook": "MacBook",
+        "airpods": "AirPods",
+    }
+    return " ".join(apple_names.get(w, w.capitalize()) for w in slug.split("-"))
+
+
+def price_range(values: list[int]) -> str:
+    """複数の構成の価格を「119,800円」または「119,800〜137,800円」にまとめる。"""
+    low, high = min(values), max(values)
+    return f"{low:,}円" if low == high else f"{low:,}〜{high:,}円"
 
 
 # --------------------------------------------------------------------------
@@ -440,13 +453,15 @@ def main() -> int:
         changed = [e for e in family_events if e["type"] in ("price_up", "price_down")]
         mark = f" ← {len(changed)}件の価格変動" if changed else ""
         print(f"  ○ {label}: {len(current)}件{mark}")
-        for event in changed:
-            direction = "安く" if event["diff"] < 0 else "高く"
-            amount = abs(event["diff"])
+        for event_type, direction in (("price_down", "安く"), ("price_up", "高く")):
+            same_direction = [e for e in changed if e["type"] == event_type]
+            if not same_direction:
+                continue
             print(
-                f"    ・{event['name']}: "
-                f"{event['old_price']:,}円 → {event['new_price']:,}円"
-                f"（{amount:,}円{direction}なりました）"
+                f"    ・{label}: "
+                f"{price_range([e['old_price'] for e in same_direction])} → "
+                f"{price_range([e['new_price'] for e in same_direction])}"
+                f"（{price_range([abs(e['diff']) for e in same_direction])}{direction}なりました）"
             )
 
     if not skus:
