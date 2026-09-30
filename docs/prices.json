@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-17T09:40:47+09:00",
+ "updated": "2026-10-01T06:38:43+09:00",
  "source": "Apple Store（日本）",
  "families": [
   {
@@ -25,12 +25,6 @@
    "label": "iPhone Air",
    "category": "iPhone",
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-air"
-  },
-  {
-   "id": "iphone-duo",
-   "label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo"
   },
   {
    "id": "ipad",
@@ -1041,102 +1035,6 @@
    "price": 294800,
    "first_seen": "2026-08-14",
    "price_since": "2026-09-10"
-  },
-  {
-   "id": "MK244J/A",
-   "part": "MK244J/A",
-   "family": "iphone-duo",
-   "family_label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
-   "name": "スターホワイト / 256GB",
-   "price": 364800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MK254J/A",
-   "part": "MK254J/A",
-   "family": "iphone-duo",
-   "family_label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
-   "name": "ナイトスカイ / 256GB",
-   "price": 364800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MK264J/A",
-   "part": "MK264J/A",
-   "family": "iphone-duo",
-   "family_label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
-   "name": "スターホワイト / 512GB",
-   "price": 399800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MK274J/A",
-   "part": "MK274J/A",
-   "family": "iphone-duo",
-   "family_label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
-   "name": "ナイトスカイ / 512GB",
-   "price": 399800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MK284J/A",
-   "part": "MK284J/A",
-   "family": "iphone-duo",
-   "family_label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
-   "name": "スターホワイト / 1TB",
-   "price": 469800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MK294J/A",
-   "part": "MK294J/A",
-   "family": "iphone-duo",
-   "family_label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
-   "name": "ナイトスカイ / 1TB",
-   "price": 469800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MK2A4J/A",
-   "part": "MK2A4J/A",
-   "family": "iphone-duo",
-   "family_label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
-   "name": "スターホワイト / 2TB",
-   "price": 574800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MK2C4J/A",
-   "part": "MK2C4J/A",
-   "family": "iphone-duo",
-   "family_label": "iPhone Duo",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
-   "name": "ナイトスカイ / 2TB",
-   "price": 574800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
   },
   {
    "id": "MD3Y4J/A",
