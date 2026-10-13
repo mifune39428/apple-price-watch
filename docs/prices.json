@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T07:18:18+09:00",
+ "updated": "2026-10-13T22:08:43+09:00",
  "source": "Apple Store（日本）",
  "families": [
   {
@@ -75,12 +75,6 @@
    "url": "https://www.apple.com/jp/shop/buy-mac/macbook-air"
   },
   {
-   "id": "macbook-neo",
-   "label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo"
-  },
-  {
    "id": "macbook-pro",
    "label": "MacBook Pro",
    "category": "Mac",
@@ -139,6 +133,18 @@
    "label": "Apple Vision Pro",
    "category": "Vision",
    "url": "https://www.apple.com/jp/shop/buy-vision/apple-vision-pro"
+  },
+  {
+   "id": "apple-tv-4k",
+   "label": "Apple Tv 4k",
+   "category": "その他",
+   "url": "https://www.apple.com/jp/shop/buy-tv/apple-tv-4k"
+  },
+  {
+   "id": "homepod-mini",
+   "label": "Homepod Mini",
+   "category": "その他",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini"
   }
  ],
  "skus": [
@@ -3287,102 +3293,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MHFA4J/A",
-   "part": "MHFA4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シルバー / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MHFD4J/A",
-   "part": "MHFD4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シトラス / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MHFF4J/A",
-   "part": "MHFF4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "インディゴ / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MHFH4J/A",
-   "part": "MHFH4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "ブラッシュ / 256GB Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 119800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MHFC4J/A",
-   "part": "MHFC4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シルバー / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MHFE4J/A",
-   "part": "MHFE4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "シトラス / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MHFG4J/A",
-   "part": "MHFG4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "インディゴ / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
-   "id": "MHFJ4J/A",
-   "part": "MHFJ4J/A",
-   "family": "macbook-neo",
-   "family_label": "MacBook Neo",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-neo",
-   "name": "ブラッシュ / 512GB Touch ID搭載Magic Keyboard / 6コアCPU、5コアGPU",
-   "price": 137800,
-   "first_seen": "2026-09-12",
-   "price_since": "2026-09-12"
-  },
-  {
    "id": "MDE14J/A",
    "part": "MDE14J/A",
    "family": "macbook-pro",
@@ -4545,6 +4455,78 @@
    "price": 739800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
+  },
+  {
+   "id": "MLFF4J/A",
+   "part": "MLFF4J/A",
+   "family": "apple-tv-4k",
+   "family_label": "Apple Tv 4k",
+   "category": "その他",
+   "url": "https://www.apple.com/jp/shop/buy-tv/apple-tv-4k",
+   "name": "標準構成",
+   "price": 49800,
+   "first_seen": "2026-10-13",
+   "price_since": "2026-10-13"
+  },
+  {
+   "id": "MGHJ4J/A",
+   "part": "MGHJ4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "name": "ミッドナイト",
+   "price": 24800,
+   "first_seen": "2026-10-13",
+   "price_since": "2026-10-13"
+  },
+  {
+   "id": "MGHK4J/A",
+   "part": "MGHK4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "name": "ホワイト",
+   "price": 24800,
+   "first_seen": "2026-10-13",
+   "price_since": "2026-10-13"
+  },
+  {
+   "id": "MGHL4J/A",
+   "part": "MGHL4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "name": "グリーン",
+   "price": 24800,
+   "first_seen": "2026-10-13",
+   "price_since": "2026-10-13"
+  },
+  {
+   "id": "MGHM4J/A",
+   "part": "MGHM4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "name": "ブルー",
+   "price": 24800,
+   "first_seen": "2026-10-13",
+   "price_since": "2026-10-13"
+  },
+  {
+   "id": "MGKR4J/A",
+   "part": "MGKR4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "name": "ピンク",
+   "price": 24800,
+   "first_seen": "2026-10-13",
+   "price_since": "2026-10-13"
   }
  ],
  "events": [
@@ -4650,6 +4632,84 @@
    "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-duo",
    "old_price": null,
    "new_price": 469800,
+   "diff": null
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "sku": "MGHJ4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "name": "ミッドナイト",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "old_price": null,
+   "new_price": 24800,
+   "diff": null
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "sku": "MGHK4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "name": "ホワイト",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "old_price": null,
+   "new_price": 24800,
+   "diff": null
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "sku": "MGHM4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "name": "ブルー",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "old_price": null,
+   "new_price": 24800,
+   "diff": null
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "sku": "MGKR4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "name": "ピンク",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "old_price": null,
+   "new_price": 24800,
+   "diff": null
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "sku": "MGHL4J/A",
+   "family": "homepod-mini",
+   "family_label": "Homepod Mini",
+   "category": "その他",
+   "name": "グリーン",
+   "url": "https://www.apple.com/jp/shop/buy-homepod/homepod-mini",
+   "old_price": null,
+   "new_price": 24800,
+   "diff": null
+  },
+  {
+   "date": "2026-10-13",
+   "type": "new",
+   "sku": "MLFF4J/A",
+   "family": "apple-tv-4k",
+   "family_label": "Apple Tv 4k",
+   "category": "その他",
+   "name": "標準構成",
+   "url": "https://www.apple.com/jp/shop/buy-tv/apple-tv-4k",
+   "old_price": null,
+   "new_price": 49800,
    "diff": null
   },
   {
