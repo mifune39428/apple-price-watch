@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T22:36:52+09:00",
+ "updated": "2026-10-22T04:01:30+09:00",
  "source": "Apple Store（日本）",
  "families": [
   {
@@ -3317,18 +3317,6 @@
    "price_since": "2026-08-14"
   },
   {
-   "id": "MEQJ4J/A",
-   "part": "MEQJ4J/A",
-   "family": "macbook-pro",
-   "family_label": "MacBook Pro",
-   "category": "Mac",
-   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
-   "name": "スペースブラック / M5チップ / 10コアCPU、10コアGPU / Nano-textureディスプレイ / 14インチ",
-   "price": 366800,
-   "first_seen": "2026-08-14",
-   "price_since": "2026-08-14"
-  },
-  {
    "id": "buy-mac/macbook-pro#14inch-silver-nano_texture-m5-10-10",
    "part": null,
    "family": "macbook-pro",
@@ -3339,6 +3327,18 @@
    "price": 366800,
    "first_seen": "2026-08-14",
    "price_since": "2026-08-14"
+  },
+  {
+   "id": "buy-mac/macbook-pro#14inch-spaceblack-nano_texture-m5-10-10",
+   "part": null,
+   "family": "macbook-pro",
+   "family_label": "MacBook Pro",
+   "category": "Mac",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
+   "name": "スペースブラック / M5チップ / 10コアCPU、10コアGPU / Nano-textureディスプレイ / 14インチ",
+   "price": 366800,
+   "first_seen": "2026-10-22",
+   "price_since": "2026-10-22"
   },
   {
    "id": "MGDN4J/A",
@@ -4530,6 +4530,32 @@
   }
  ],
  "events": [
+  {
+   "date": "2026-10-22",
+   "type": "new",
+   "sku": "buy-mac/macbook-pro#14inch-spaceblack-nano_texture-m5-10-10",
+   "family": "macbook-pro",
+   "family_label": "MacBook Pro",
+   "category": "Mac",
+   "name": "スペースブラック / M5チップ / 10コアCPU、10コアGPU / Nano-textureディスプレイ / 14インチ",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
+   "old_price": null,
+   "new_price": 366800,
+   "diff": null
+  },
+  {
+   "date": "2026-10-22",
+   "type": "gone",
+   "sku": "MEQJ4J/A",
+   "family": "macbook-pro",
+   "family_label": "MacBook Pro",
+   "category": "Mac",
+   "name": "スペースブラック / M5チップ / 10コアCPU、10コアGPU / Nano-textureディスプレイ / 14インチ",
+   "url": "https://www.apple.com/jp/shop/buy-mac/macbook-pro",
+   "old_price": 366800,
+   "new_price": null,
+   "diff": null
+  },
   {
    "date": "2026-10-16",
    "type": "new",
