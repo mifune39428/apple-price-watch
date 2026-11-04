@@ -1,13 +1,7 @@
 {
- "updated": "2026-11-04T19:07:51+09:00",
+ "updated": "2026-11-05T04:02:24+09:00",
  "source": "Apple Store（日本）",
  "families": [
-  {
-   "id": "iphone-16",
-   "label": "iPhone 16",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16"
-  },
   {
    "id": "iphone-17",
    "label": "iPhone 17",
@@ -154,66 +148,6 @@
   }
  ],
  "skus": [
-  {
-   "id": "MYDQ3J/A",
-   "part": "MYDQ3J/A",
-   "family": "iphone-16",
-   "family_label": "iPhone 16",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
-   "name": "iPhone 16 / ブラック / 128GB",
-   "price": 139800,
-   "first_seen": "2026-11-04",
-   "price_since": "2026-11-04"
-  },
-  {
-   "id": "MYDR3J/A",
-   "part": "MYDR3J/A",
-   "family": "iphone-16",
-   "family_label": "iPhone 16",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
-   "name": "iPhone 16 / ホワイト / 128GB",
-   "price": 139800,
-   "first_seen": "2026-11-04",
-   "price_since": "2026-11-04"
-  },
-  {
-   "id": "MYDT3J/A",
-   "part": "MYDT3J/A",
-   "family": "iphone-16",
-   "family_label": "iPhone 16",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
-   "name": "iPhone 16 / ピンク / 128GB",
-   "price": 139800,
-   "first_seen": "2026-11-04",
-   "price_since": "2026-11-04"
-  },
-  {
-   "id": "MYDU3J/A",
-   "part": "MYDU3J/A",
-   "family": "iphone-16",
-   "family_label": "iPhone 16",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
-   "name": "iPhone 16 / ウルトラマリン / 128GB",
-   "price": 139800,
-   "first_seen": "2026-11-04",
-   "price_since": "2026-11-04"
-  },
-  {
-   "id": "MYDV3J/A",
-   "part": "MYDV3J/A",
-   "family": "iphone-16",
-   "family_label": "iPhone 16",
-   "category": "iPhone",
-   "url": "https://www.apple.com/jp/shop/buy-iphone/iphone-16",
-   "name": "iPhone 16 / ティール / 128GB",
-   "price": 139800,
-   "first_seen": "2026-11-04",
-   "price_since": "2026-11-04"
-  },
   {
    "id": "MG674J/A",
    "part": "MG674J/A",
